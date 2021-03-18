@@ -2,8 +2,8 @@
 main:
   - title: "About me"
     url: https://github.com/CNardin/CNardin.github.io/blob/main/_docs/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Projects"
+    url: https://CNardin.github.io/CNardin.github.io/_projects/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
