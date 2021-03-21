@@ -1,1 +1,4 @@
 _GEN/
+.jekyll-cache
+_site/
+Gemfile.lock
