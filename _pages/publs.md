@@ -5,15 +5,8 @@ permalink: /publs/
 author_profile: true
 ---
 
----
-layout: single
-title: Publications
-permalink: /publs/
-author_profile: true
----
-
 # Journal Publications
-<form action="https://doi.org/10.1016/j.engstruct.2021.112681" method="get" target="_blank"><button type="submit">J-2</button></form>
+<!--<form action="https://doi.org/10.1016/j.engstruct.2021.112681" method="get" target="_blank"><button type="submit">J-2</button></form>-->
 **[[J-2]](https://doi.org/10.1016/j.engstruct.2021.112681)** Paolacci, F., Quinci, G., **Nardin, C.**, Vezzari, V., Marino, A., Ciucci, M., (2021). *Bolted Flange Joints equipped with FBG sensors in industrial piping systems subject to seismic loads.*. Journal: Journal of Loss Prevention in the Process Industries. DOI: [doi.org/10.1016/j.engstruct.2021.112681](doi.org/10.1016/j.engstruct.2021.112681)
 
 <!-- ## Abstract
@@ -27,9 +20,12 @@ Past earthquakes demonstrated the high vulnerability of industrial facilities eq
 design standards w.r.t. floor spectra predictions.
  -->
 ## SCImago Journal
+
 | Journal |  SCImago| Journal| SCImago|
-| :-----: | :---: | :-----: | :---: |
-|[[J-1]](https://doi.org/10.1016/j.engstruct.2021.112681)|<a href="https://www.scimagojr.com/journalsearch.php?q=15652&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=15652" alt="SCImago Journal &amp; Country Rank"  /></a>|[[J-2]](https://doi.org/10.1016/j.engstruct.2021.112681)| <a href="https://www.scimagojr.com/journalsearch.php?q=13559&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=13559" alt="SCImago Journal &amp; Country Rank"  /></a> |
+| :-----: | :-----: | :----: | :----: |
+|[[J-1]](https://doi.org/10.1016/j.engstruct.2021.112681)| <img src="https://www.scimagojr.com/journal_img.php?id=15652" alt="Scimago Journal &amp; Country Rank" class="imgwidget"> | [[J-2]](https://doi.org/10.1016/j.engstruct.2021.112681)  | <a href="https://www.scimagojr.com/journalsearch.php?q=13559&amp;tip=sid&amp;exact=no" title="SCImago Journal &amp; Country Rank"><img border="0" src="https://www.scimagojr.com/journal_img.php?id=13559" alt="SCImago Journal &amp; Country Rank"  /></a> |
+
+
 
 # Conference Proceedings
 
