@@ -6,6 +6,8 @@ main:
     url: /projects/index_projects/
   - title: "Publications"
     url: /publs/
+  - title: "Teaching"
+    url: /teach/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
