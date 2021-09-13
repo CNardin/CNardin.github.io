@@ -3,12 +3,22 @@ main:
   - title: "About me"
     url: /about-me/
   - title: "Projects"
-    url: /projects/index_projects/
+    url: /projects/
+    children:
+      - title: "eng 1"
+        url: /eng1/
   - title: "Publications"
     url: /publs/
   - title: "Teaching"
     url: /teaching/
+  - title: "Talks"
+    url: /talks/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+projects:
+  - title: "Masonry"
+    children: 
+      - title: "Muratura-sis"
+        url: /_projects/muratura-sis/
