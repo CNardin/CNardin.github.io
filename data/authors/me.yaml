@@ -47,7 +47,28 @@ education:
     institution: University of Trento
     start: 2019-11-01
     end: 2022-12-22
-    summary: Nowadays, earthquakes are among the most destructive of natural catastrophes perils. Based on observations of damage following recent disastrous seismic events and numerical studies, it emerges that critical non-structural components (NSCs), ubiquitous to most industrial facilities, are particularly and even disproportionately vulnerable to earthquakes. Nonetheless, seismic provisions for industrial facilities and their process equipment are still based on classical load-and-resistance factor design; a performance-based earthquake engineering (PBEE) approach should, instead, be preferred. However, recent research within a PBEE perspective remarked: (i) a lack of definition of performance objectives for NSCs; (ii) a gap in fully comprehensive testing campaigns on coupled NSC-structure systems. In this respect, this PhD thesis introduces a computational framework for an efficient and accurate seismic fragility analysis, based on a combination of data from experimental test campaigns and refined FE models with cutting-edge surrogate-based uncertainty quantification advancements. Specifically, the framework is applied to a real-world application consisting of seismic shake table tests of a representative industrial multi-storey frame structure equipped with complex process components, within the European SPIF project. The experimental research aspires to improve the understanding of these complex systems and to improve the knowledge of FE modelling techniques, by reducing the high-demanding computational burden and assessing, as well, when the importance of coupling effects comes into play. To assess the seismic risk of NSCs, this thesis also introduces state-dependent fragility curves. To this end, the computational burden is tackled by polynomial chaos expansion (PCE) surrogate models. The dimensionality of the input is reduced by performing the principal component analysis. Then, by bootstrapping on the experimental design, separate PCE coefficients are determined, yielding to full response sample at each point. Finally, empirical state-dependent fragility curves are derived.
+    summary: |
+      Nowadays, earthquakes are among the most destructive natural catastrophes.
+      Based on observations of damage following recent disastrous seismic events
+      and numerical studies, it emerges that critical non-structural components
+      (NSCs), ubiquitous to most industrial facilities, are particularly and even
+      disproportionately vulnerable to earthquakes.
+
+      Nonetheless, seismic provisions for industrial facilities and their process
+      equipment are still based on classical load-and-resistance factor design;
+      a performance-based earthquake engineering (PBEE) approach should instead
+      be preferred.
+
+      However, recent research within a PBEE perspective remarked:
+      (i) a lack of definition of performance objectives for NSCs;
+      (ii) a gap in fully comprehensive testing campaigns on coupled
+      NSC–structure systems.
+
+      In this respect, this PhD thesis introduces a computational framework for
+      efficient and accurate seismic fragility analysis based on experimental
+      test data, refined FE models, and surrogate-based uncertainty quantification.
+      State-dependent fragility curves are derived using polynomial chaos expansion
+      (PCE) surrogate models with dimensionality reduction via PCA.
     button:
       text: Download dissertation
       url: /phd_unitn_chiara_nardin_red.pdf
