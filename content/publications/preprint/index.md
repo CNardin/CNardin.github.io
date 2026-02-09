@@ -28,7 +28,7 @@ featured: true
 
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
+    arxiv: https://ssrn.com/abstract=5863329
 
 links:
 - type: preprint
@@ -53,7 +53,7 @@ links:
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image: 
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  caption: evaces-screen.png #'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
   focal_point: ""
   preview_only: false
 
