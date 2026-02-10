@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
+#    description: "The highly-customizable Hugo Academic theme powered by HugoBlox Kit. Easily create your personal academic website."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       linkedin: "linkedin.com/in/chiaranardin"              # Twitter/X handle for Twitter Cards (without @)
@@ -53,6 +53,8 @@ hugoblox:
       footer:
         background: ""
         foreground: ""
+
+
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
@@ -289,3 +291,6 @@ hugoblox:
     # Affiliate referral code for rewards program
     # Join affiliate program: https://hugoblox.com/affiliates
     affiliate_code: ""
+
+custom_css:
+  - css/citation-fix.css

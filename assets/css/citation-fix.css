@@ -1,0 +1,37 @@
+/* Improve Cite popup readability */
+.cite-modal pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  background: #0f172a;
+  color: #e5e7eb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+/* Plain citation text */
+.cite-modal p {
+  white-space: normal;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Links inside citation */
+.cite-modal a {
+  word-break: break-all;
+}
+
+/* Separate sections visually */
+.cite-modal h4 {
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+/* Buttons spacing */
+.cite-modal .btn {
+  margin-right: 0.5rem;
+}
