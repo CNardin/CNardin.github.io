@@ -12,6 +12,8 @@ show_author_list: false
 #- "Equal contribution"
 date: "2025-09-01T00:00:00Z"
 
+show_taxonomies: false
+
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-09-01T00:01:00Z"
 
@@ -86,7 +88,7 @@ projects:
 slides: ""
 ---
 
-> [!Export~citation]
+> [!NOTE]
 > Click the *Cite* button above to copy *.bib* publication metadata into your notes.
 >
 > Bibtex format (*copy-paste*):
