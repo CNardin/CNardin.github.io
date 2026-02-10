@@ -53,7 +53,7 @@ links:
 #  - type: poster
 #    url: ""
   - type: project
-    url: ""
+    url: "content/spif"
 #  - type: slides
 #    url: https://www.slideshare.net/
 #  - type: source
@@ -74,7 +74,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: content/project/spif
+projects: 
+  - spif
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
