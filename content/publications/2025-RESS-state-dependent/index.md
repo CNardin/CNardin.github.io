@@ -84,10 +84,22 @@ projects: content/project/spif
 slides: ""
 ---
 
-> [!NOTE]
-> Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+> [!Export~citation]
+> Click the *Cite* button above to copy *.bib* publication metadata into your notes.
+>
+> Bibtex format (*copy-paste*):
+> @article{nardin2025state-dependent,
+>           title   = {UQ state-dependent framework for seismic fragility assessment of industrial components},
+>           journal = {Reliability Engineering \& System Safety},
+>           volume  = {261},
+>           pages   = {111067},
+>           year    = {2025},
+>           issn    = {0951-8320},
+>           doi     = {https://doi.org/10.1016/j.ress.2025.111067},
+>           url     = {https://www.sciencedirect.com/science/article/pii/S0951832025002686},
+>           author = {Chiara Nardin and Stefano Marelli and Oreste S. Bursi and Bruno Sudret and Marco Broccardo}}
+>
+> Plain text reference (*copy-paste*):
+> Chiara Nardin, Stefano Marelli, Oreste S. Bursi, Bruno Sudret, Marco Broccardo, UQ state-dependent framework for seismic fragility assessment of industrial components, Reliability Engineering & System Safety, Volume 261, 2025, ISSN 0951-8320, https://doi.org/10.1016/j.ress.2025.111067. (https://www.sciencedirect.com/science/article/pii/S0951832025002686)
 
-> [!NOTE]
-> Create your slides in Markdown - click the *Slides* button to check out the example.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
