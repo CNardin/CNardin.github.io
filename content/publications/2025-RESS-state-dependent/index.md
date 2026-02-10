@@ -1,11 +1,6 @@
 ---
 title: "UQ state-dependent framework for seismic fragility assessment of industrial components"
-authors:
-- me
-- Stefano Marelli
-- Oreste S. Bursi
-- Bruno Sudret
-- Marco Broccardo
+authors: ["@me", "Stefano Marelli", "Oreste S. Bursi", "Bruno Sudret", "Marco Broccardo"]
 show_author_list: false
 #author_notes:
 #- "Equal contribution"
@@ -77,8 +72,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: 
-  - spif
+projects: ["spif"]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
