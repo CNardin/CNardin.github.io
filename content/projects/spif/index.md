@@ -19,7 +19,7 @@ blocks:
     content:
       title: Publications
       filters:
-        tag: SPIF
+        tag: spif
       page_type: publication
       sort_by: date
       sort_ascending: false

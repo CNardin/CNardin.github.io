@@ -1,0 +1,30 @@
+schema: hugoblox/author/v1
+slug: stefano-marelli
+is_owner: false
+name:
+  display: Stefano Marelli
+  given: Stefano
+  family: Marelli
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: he/him
+postnominals:
+  - PhD
+status:
+  icon: "☕️"
+role: Senior researcher at ETH Zurich (Switzerland) in the Chair of Risk, Safety and Uncertainty Quantification (RSUQ)
+bio: |
+  Stefano Marelli
+
+affiliations:
+  - name: ETH Zurich - Risk Safety and Uncertainty Quantification (RSUQ) Chair 
+    url: https://baug.ethz.ch/en/department/people/staff/personen-detail.stefano-marelli.html
+
+links:
+  - icon: at-symbol
+    url: mailto:marelli@ibk.baug.ethz.ch
+    label: E-mail Me
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=example
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-1825-0097
