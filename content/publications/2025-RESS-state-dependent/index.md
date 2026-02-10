@@ -53,7 +53,7 @@ links:
 #  - type: poster
 #    url: ""
   - type: project
-    url: "content/spif"
+    url: "content/projects/spif"
 #  - type: slides
 #    url: https://www.slideshare.net/
 #  - type: source
