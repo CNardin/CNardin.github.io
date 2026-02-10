@@ -6,6 +6,7 @@ authors:
 - Oreste S. Bursi
 - Bruno Sudret
 - Marco Broccardo
+show_author_list: false
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
@@ -53,7 +54,7 @@ links:
 #  - type: poster
 #    url: ""
   - type: project
-    url: "content/projects/spif"
+    url: /projects/spif/
 #  - type: slides
 #    url: https://www.slideshare.net/
 #  - type: source
