@@ -9,7 +9,7 @@ blocks:
     #   2 = Compact
     #   3 = Card
     #   4 = Citation
-    view: compact
+    view: list
     content:
       title: Publications
       page_type: publication
