@@ -2,6 +2,8 @@
 title: Publications
 cms_exclude: true
 
+widget: publications
+
 # View.
 #   1 = List
 #   2 = Compact
