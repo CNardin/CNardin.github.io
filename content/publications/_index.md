@@ -3,7 +3,7 @@ title: Publications
 cms_exclude: true
 
 blocks:
-  - block: collection
+  - block: resume-awards
     # View.
     #   1 = List
     #   2 = Compact
