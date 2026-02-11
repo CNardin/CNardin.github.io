@@ -28,13 +28,13 @@ links:
     url: mailto:chiara.nardin@unitn.it
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/cnardin
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/chiaranardin
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?user=a_OglL0AAAAJ&hl=en&oi=ao
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0001-5860-0314
 
 interests:
   - Uncertainty Quantification

@@ -1,0 +1,30 @@
+schema: hugoblox/author/v1
+slug: stefano-zorzi
+is_owner: false
+name:
+  display: Stefano Zorzi
+  given: Stefano
+  family: Zorzi
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: he/him
+postnominals:
+  - PhD
+status:
+  icon: "☕️"
+role: PhD student at UniTn (Italy) 
+bio: |
+  Stefano Zorzi
+
+affiliations:
+  - name: UniTn - Department of Civil, Environmental and Mechanical Engineering
+    url: https://webapps.unitn.it/du/it/Persona/PER0190579/Pubblicazioni
+
+links:
+  - icon: at-symbol
+    url: mailto:stefano.zorzi@unitn.it
+    label: E-mail Me
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=cByNzS4AAAAJ&hl=en&oi=ao
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-3537-4649
