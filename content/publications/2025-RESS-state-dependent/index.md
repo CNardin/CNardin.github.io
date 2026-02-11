@@ -1,6 +1,6 @@
 ---
 title: "UQ state-dependent framework for seismic fragility assessment of industrial components"
-authors: ["@chiara-nardin", "Stefano Marelli", "Oreste S. Bursi", "Bruno Sudret", "Marco Broccardo"]
+authors: ["Chiara Nardin", "Stefano Marelli", "Oreste S. Bursi", "Bruno Sudret", "Marco Broccardo"]
 show_author_list: false
 #author_notes:
 #- "Equal contribution"

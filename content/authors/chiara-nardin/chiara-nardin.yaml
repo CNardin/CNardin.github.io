@@ -1,0 +1,133 @@
+schema: hugoblox/author/v1
+slug: chiara-nardin
+is_owner: true
+name:
+  display: Chiara Nardin
+  given: Chiara
+  family: Nardin
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: she/her
+postnominals:
+  - PhD
+  - Structural Engineer
+status:
+  icon: "☕️"
+role: MSCA PostDoc at ETH Zurich (Switzerland) and UniTn (Italy)
+bio: |
+  Chiara Nardin 
+
+affiliations:
+  - name: ETH Zurich - Risk Safety and Uncertainty Quantification (RSUQ) Chair 
+    url: https://sudret.ibk.ethz.ch/the-chair/people/visiting-scholars/chiara-nardin.html
+  - name: UniTn - Department of Civil and Industrial Engineering
+    url: https://researchcenter.unitn.it/en/nhmsdc/people
+
+links:
+  - icon: at-symbol
+    url: mailto:chiara.nardin@unitn.it
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/example
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/example/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=example
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-1825-0097
+
+interests:
+  - Uncertainty Quantification
+  - Structural Engineering
+  - Seismic Risk Assessment
+  - Reliability Analysis
+
+education:
+  - degree: PhD Structural Engineering
+    institution: University of Trento
+    start: 2019-11-01
+    end: 2022-12-22
+    summary: |
+      Nowadays, earthquakes are among the most destructive natural catastrophes.
+      Based on observations of damage following recent disastrous seismic events
+      and numerical studies, it emerges that critical non-structural components
+      (NSCs), ubiquitous to most industrial facilities, are particularly and even
+      disproportionately vulnerable to earthquakes.
+
+      Nonetheless, seismic provisions for industrial facilities and their process
+      equipment are still based on classical load-and-resistance factor design;
+      a performance-based earthquake engineering (PBEE) approach should instead
+      be preferred.
+
+      However, recent research within a PBEE perspective remarked:
+      (i) a lack of definition of performance objectives for NSCs;
+      (ii) a gap in fully comprehensive testing campaigns on coupled
+      NSC–structure systems.
+
+      In this respect, this PhD thesis introduces a computational framework for
+      efficient and accurate seismic fragility analysis based on experimental
+      test data, refined FE models, and surrogate-based uncertainty quantification.
+      State-dependent fragility curves are derived using polynomial chaos expansion
+      (PCE) surrogate models with dimensionality reduction via PCA.
+    button:
+      text: Download dissertation
+      url: /phd_unitn_chiara_nardin_red.pdf
+      icon: hero/arrow-down-tray
+  - degree: MS Computer Science
+    institution: Carnegie Mellon University
+    start: 2013-09-01
+    end: 2015-05-31
+  - degree: BS Computer Science
+    institution: MIT
+    start: 2009-09-01
+    end: 2013-05-31
+
+experience:
+  - role: Senior AI Research Scientist
+    org: Meta AI
+    start: 2020-01-01
+    summary: |
+      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+    button:
+      text: View portfolio
+      url: /
+      icon: hero/arrow-down-tray
+  - role: AI Research Intern
+    org: OpenAI
+    start: 2019-06-01
+    end: 2019-12-31
+    summary: |
+      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+
+skills:
+  - name: Technical Skills
+    items:
+      - label: Python
+        level: 5
+      - label: Machine Learning
+        level: 5
+      - label: Cloud Computing
+        level: 4
+  - name: Research & Communication
+    items:
+      - label: Academic Writing
+        level: 5
+      - label: Conference Presentations
+        level: 4
+      - label: Grant Proposals
+        level: 4
+
+languages:
+  - name: English
+    level: 5
+    label: Native
+  - name: Spanish
+    level: 4
+    label: Fluent
+
+awards:
+  - title: Best Paper Award
+    awarder: NeurIPS
+    date: "2022-12-01"
+    summary: Awarded for groundbreaking work on efficient training of large models.
+    icon: hero/trophy
