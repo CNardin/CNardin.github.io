@@ -11,11 +11,11 @@ main:
     url: publications/
     weight: 11
   - name: Talks
-    url: /#talks
+    url: blog/
     weight: 12
-  - name: News
-    url: /#news
-    weight: 13
+#  - name: News
+#    url: /#news
+#    weight: 13
   - name: Projects
     url: projects/
     weight: 20
