@@ -33,6 +33,7 @@ tags:
 - Industrial components
 - Uncertainty quantification
 - Seismic vulnerability
+- spif
 featured: false
 
 #hugoblox:
