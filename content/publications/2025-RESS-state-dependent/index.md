@@ -1,6 +1,6 @@
 ---
 title: "UQ state-dependent framework for seismic fragility assessment of industrial components"
-authors: ["@me", "Stefano Marelli", "Oreste S. Bursi", "Bruno Sudret", "Marco Broccardo"]
+authors: ["@chiara-nardin", "Stefano Marelli", "Oreste S. Bursi", "Bruno Sudret", "Marco Broccardo"]
 show_author_list: false
 #author_notes:
 #- "Equal contribution"
@@ -84,26 +84,9 @@ slides: ""
 ---
 
 
-> [!NOTE]
+> [!TIP]
 > Click the *Cite* button above to copy *.bib* publication metadata into your notes.  
+> or directly download here either the bibtex version:
 > <a href="/papers/RESS_2025_Nardin.bib" target="_blank">Download BibTeX</a>
-
-
-> [!NOTE]
-> Click the *Cite* button above to copy *.bib* publication metadata into your notes.
-> Bibtex format (*copy-paste*):
-> @article{nardin2025state-dependent,
->           title   = {UQ state-dependent framework for seismic fragility assessment of industrial components},
->           journal = {Reliability Engineering \& System Safety},
->           volume  = {261},
->           pages   = {111067},
->           year    = {2025},
->           issn    = {0951-8320},
->           doi     = {https://doi.org/10.1016/j.ress.2025.111067},
->           url     = {https://www.sciencedirect.com/science/article/pii/S0951832025002686},
->           author = {Chiara Nardin and Stefano Marelli and Oreste S. Bursi and Bruno Sudret and Marco Broccardo}}
->
-> Plain text reference (*copy-paste*):
-> Chiara Nardin, Stefano Marelli, Oreste S. Bursi, Bruno Sudret, Marco Broccardo, UQ state-dependent framework for seismic fragility assessment of industrial components, Reliability Engineering & System Safety, Volume 261, 2025, ISSN 0951-8320, https://doi.org/10.1016/j.ress.2025.111067. (https://www.sciencedirect.com/science/article/pii/S0951832025002686)
-
-
+> or the plain text one:
+> <a href="/papers/RESS_2025_Nardin.txt" target="_blank">Download Plain.txt</a>
