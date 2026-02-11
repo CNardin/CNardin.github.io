@@ -16,12 +16,17 @@ blocks:
         The objective of the project is the holistic investigation of the seismic behaviour of industrial plants equipped with complex process technology by means of shaking table tests.
 
   - block: collection
+    view: citation
     content:
       title: Publications
       filters:
-        tag: spif
+        tag: SPIF
       page_type: publication
       sort_by: date
       sort_ascending: false
-      view: citation
 ---
+
+{{< cards >}}
+  {{< card url="../callout" title="Related Publications" icon="academic-cap" >}}
+  {{< card url="" title="A card without an icon" >}}
+{{< /cards >}}
