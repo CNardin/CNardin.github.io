@@ -82,9 +82,14 @@ projects: ["spif"]
 slides: ""
 ---
 
+
+> [!NOTE]
+> Click the *Cite* button above to copy *.bib* publication metadata into your notes.  
+> <a href="/papers/RESS_2025_Nardin.bib" target="_blank">Download BibTeX</a>
+
+
 > [!NOTE]
 > Click the *Cite* button above to copy *.bib* publication metadata into your notes.
->
 > Bibtex format (*copy-paste*):
 > @article{nardin2025state-dependent,
 >           title   = {UQ state-dependent framework for seismic fragility assessment of industrial components},
