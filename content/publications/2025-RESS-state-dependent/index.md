@@ -82,9 +82,6 @@ projects: ["spif"]
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-<div class="scite-badge" data-doi="10.1016/j.ress.2025.111067" data-layout="horizontal" data-show-zero="false" data-small="false" data-show-labels="true" data-tally-show="true"></div><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
-
-<div class="scite-badge" data-doi="10.1016/j.ress.2025.111067" data-layout="vertical" data-show-zero="false" data-small="false" data-show-labels="true" data-tally-show="true"></div><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
 
 > [!ABSTRACT]
 > Recently, there has been increased interest in assessing the seismic fragility of industrial plants and process equipment. This is reflected in the growing number of studies, community-funded research projects and experimental campaigns on the matter. Nonetheless, the complexity of the problem and its inherent modelling, coupled with a general scarcity of available data on process equipment, has limited the development of risk assessment methods. In fact, these limitations have led to the creation of simplified and quick-to-run models. In this context, we propose an innovative framework for developing state-dependent fragility functions. This new methodology combines limited data with the power of metamodelling and statistical techniques, namely polynomial chaos expansions (PCE) and bootstrapping. Therefore, we validated the framework on a simplified and computationally efficient MDoF system endowed with Bouc–Wen hysteresis. Then, we tested it on a real nonstructural industrial process component. Specifically, we applied the state-dependent fragility framework to a critical vertical tank of a multicomponent full-scale 3D steel braced frame (BF). The seismic performance of the BF endowed with process components was captured by means of shake table campaign within the European SPIF project. Finally, we derived state-dependent fragility functions based on the combination of PCE and bootstrap at a greatly reduced computational cost.
@@ -95,3 +92,5 @@ slides: ""
 > <a href="/papers/RESS_2025_Nardin.bib" target="_blank">Download BibTeX</a>
 > or the plain text one:
 > <a href="/papers/RESS_2025_Nardin.txt" target="_blank">Download Plain.txt</a>
+
+<div class="scite-badge" data-doi="10.1016/j.ress.2025.111067" data-layout="horizontal" data-show-zero="false" data-small="false" data-show-labels="true" data-tally-show="true"></div><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"></script>
