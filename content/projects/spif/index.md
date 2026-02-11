@@ -5,7 +5,7 @@ links:
   - type: site
     url: https://sera-ta.eucentre.it/shake-table-tests-of-a-special-risk-industrial-facility-at-eucentre-laboratories/
 tags:
-  - SPIF
+  - spif
   - industrial facilities
   - shake-table tests
 
@@ -20,13 +20,16 @@ blocks:
     content:
       title: Publications
       filters:
-        tag: SPIF
+        tag: spif
       page_type: publication
       sort_by: date
       sort_ascending: false
 ---
 
 {{< cards >}}
-  {{< card url="../callout" title="Related Publications" icon="academic-cap" >}}
-  {{< card url="" title="A card without an icon" >}}
+  {{< card 
+      url="/publications/?tag=SPIF" 
+      title="Related Publications" 
+      icon="academic-cap" 
+  >}}
 {{< /cards >}}
