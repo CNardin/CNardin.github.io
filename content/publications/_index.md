@@ -4,12 +4,19 @@ cms_exclude: true
 
 widget: publications
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: citation
+# How items display
+view: citation   # list | compact | card | citation
+
+# Enable filters
+filter: true
+filter_button: true
+
+# Optional grouping
+group_by: year
+
+# Optional sort
+sort_by: date
+sort_ascending: false
 
 # Optional header image (relative to `static/media/` folder).
 banner:
