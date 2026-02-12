@@ -15,7 +15,7 @@ publishDate: "2025-09-01T00:01:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+publication_types: ["paper-article"]
 
 # Publication name and optional abbreviated publication name.
 publication: "*Reliability Engineering & System Safety*, Vol.(261)"
