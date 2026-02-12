@@ -1,25 +1,20 @@
 ---
 title: Publications
-cms_exclude: true
+type: landing
 
-widget: publications
+sections:
 
-# Layout visualizzazione
-view: citation   # list | compact | card | citation
-
-# === FILTRI ATTIVI ===
-filter: true
-filter_button: true
-search: true
-
-# === Raggruppamento ===
-group_by: year
-
-# === Ordinamento ===
-sort_by: date
-sort_ascending: false
-
-banner:
-  caption: ''
-  image: ''
+  - block: collection
+    content:
+      title: Publications
+      text: ""
+      count: 0   # 0 = all
+      filters:
+        folders:
+          - publication
+    design:
+      view: citation
+      sort_by: date
+      sort_ascending: false
+      columns: 1
 ---
