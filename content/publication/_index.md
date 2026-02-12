@@ -4,21 +4,21 @@ cms_exclude: true
 
 widget: publications
 
-# How items display
+# Layout visualizzazione
 view: citation   # list | compact | card | citation
 
-# Enable filters
+# === FILTRI ATTIVI ===
 filter: true
 filter_button: true
+search: true
 
-# Optional grouping
+# === Raggruppamento ===
 group_by: year
 
-# Optional sort
+# === Ordinamento ===
 sort_by: date
 sort_ascending: false
 
-# Optional header image (relative to `static/media/` folder).
 banner:
   caption: ''
   image: ''
