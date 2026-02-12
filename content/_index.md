@@ -53,7 +53,9 @@ sections:
     id: papers
     content:
       title: Featured Publications
+      count: 3
       filters:
+        years: '2025'
         folders:
           - publication
         featured_only: true
