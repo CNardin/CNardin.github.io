@@ -64,6 +64,7 @@ sections:
     content:
       title: Recent Publications
       text: ''
+      count: 3
       filters:
         publication_type: ''
         tag: ''
