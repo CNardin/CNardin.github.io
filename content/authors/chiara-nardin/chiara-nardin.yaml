@@ -81,33 +81,39 @@ education:
     institution: MIT
     start: 2009-09-01
     end: 2013-05-31
-
+# CHANGE HERE
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: MSCA PostDoc Fellow at ETH Zürich and UniTn 
+    org: EU MSCA
+    start: 2025-01-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+      REACTIS: Seismic Risk Reduction and Adaptation for Complex Time-dependent Industrial Systems
     button:
-      text: View portfolio
-      url: /
+      text: View project
+      url: /reactis
       icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+  - role: PostDoc Fellow at UniTn
+    org: University of Trento
+    start: 2024-01-01
+    end: 2024-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      PREVENT: development of innovative predictive models for induced seismicity based on physics-informed machine learning.
+  - role: PostDoc Fellow at UniTn
+    org: University of Trento
+    start: 2023-01-01
+    end: 2023-12-31
+    summary: |
+      SPOKE#9: Development of Markovian transition matrices for coupled industrial structure-process component systems exposed to seismic sequences.
 
 skills:
   - name: Technical Skills
     items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: MatLab
         level: 4
+      - label: Python
+        level: 3
+      - label: Machine Learning
+        level: 3
   - name: Research & Communication
     items:
       - label: Academic Writing
@@ -118,16 +124,24 @@ skills:
         level: 4
 
 languages:
-  - name: English
+  - name: Italian
     level: 5
     label: Native
-  - name: Spanish
-    level: 4
+  - name: English
+    level: 5
     label: Fluent
+  - name: German
+    level: 2
+    label: Basic
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: ReLUIS –   20 Years Research Prize, Rome
+    awarder: ReLUIS
+    date: "2023-11-08"
+    summary: Award for creative and outstanding research initiatives in the field of seismic and structural engineering.
+    icon: hero/trophy
+  - title: APESS – Asia Pacific Euro Summer School on Smart Structures Technology, Rome
+    awarder: APESS, University La Sapienza
+    date: "2019-04-08"
+    summary: Competition on the design of a SHM system and the development and testing of OMA techniques for steel structures and pedestrian bridges.
     icon: hero/trophy
