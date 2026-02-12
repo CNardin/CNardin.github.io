@@ -81,7 +81,7 @@ education:
     institution: MIT
     start: 2009-09-01
     end: 2013-05-31
-# CHANGE HERE
+
 experience:
   - role: MSCA PostDoc Fellow at ETH Zürich and UniTn 
     org: EU MSCA
