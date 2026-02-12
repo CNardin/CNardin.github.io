@@ -65,6 +65,8 @@ sections:
       title: Recent Publications
       text: ''
       filters:
+        publication_type: ''
+        tag: ''
         folders:
           - publications
         exclude_featured: false
