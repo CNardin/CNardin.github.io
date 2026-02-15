@@ -24,7 +24,7 @@ summary: A Bayesian approach for main Frequency Identification on extremely unde
 tags:
 - system identification
 
-featured: true
+featured: false
 
 hugoblox:
   ids:
