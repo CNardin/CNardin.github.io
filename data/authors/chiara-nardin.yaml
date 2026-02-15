@@ -15,7 +15,7 @@ status:
   icon: "☕️"
 role: MSCA PostDoc at ETH Zurich (Switzerland) and UniTn (Italy)
 bio: |
-  Structural engineer and MSCA postdoctoral fellow at the Chair of Risk, Safety \& Uncertainty Quantification ([https://sudret.ibk.ethz.ch/](RSUQ)), ETH Zurich, and at the Hazard Mitigation, Structural Dynamics and Control ([https://researchcenter.unitn.it/en/nhmsdc](HMSDC)) group, University of Trento. She received her Ph.D. in Modelling and Simulation in 2022 at the University of Trento with a thesis on seismic experimental analyses and surrogate models of multi-component systems in special-risk industrial facilities. Her research focuses on seismic risk analysis, fragility assessment, uncertainty quantification, surrogate modelling, and machine learning for industrial facilities. She actively participated in the EU H2020 SERA–SPIF project and is currently developing state-dependent fragility frameworks for complex time-dependent industrial systems.
+  Structural engineer and MSCA fellow working on seismic risk, fragility modelling, and uncertainty quantification for complex industrial systems at ETH Zurich and the University of Trento.
 
 affiliations:
   - name: ETH Zurich - Risk Safety and Uncertainty Quantification (RSUQ) Chair 
@@ -70,6 +70,9 @@ education:
     #  test data, refined FE models, and surrogate-based uncertainty quantification.
     #  State-dependent fragility curves are derived using polynomial chaos expansion
     #  (PCE) surrogate models with dimensionality reduction via PCA.
+
+#      Structural engineer and MSCA postdoctoral fellow at the Chair of Risk, Safety \& Uncertainty Quantification ([RSUQ](https://sudret.ibk.ethz.ch/)), ETH Zurich, and at the Hazard Mitigation, Structural Dynamics and Control ([HMSDC](https://researchcenter.unitn.it/en/nhmsdc)) group, University of Trento. She received her Ph.D. in Modelling and Simulation in 2022 at the University of Trento with a thesis on seismic experimental analyses and surrogate models of multi-component systems in special-risk industrial facilities. Her research focuses on seismic risk analysis, fragility assessment, uncertainty quantification, surrogate modelling, and machine learning for industrial facilities. She actively participated in the EU H2020 SERA–SPIF project and is currently developing state-dependent fragility frameworks for complex time-dependent industrial systems.
+
     button:
       text: Download dissertation
       url: /phd_unitn_chiara_nardin_red.pdf

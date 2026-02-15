@@ -1,0 +1,30 @@
+schema: hugoblox/author/v1
+slug: marco-broccardo
+is_owner: false
+name:
+  display: Marco Broccardo
+  given: Marco
+  family: Broccardo
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: he/him
+postnominals:
+  - Professor
+status:
+  icon: "☕️"
+role: Associate Professor at University of Trento (Italy)
+bio: |
+  Marco Broccardo
+
+affiliations:
+  - name: University of Trento - Department of Civil, Environmental and Mechanical Engineering
+    url: https://www.dicam.unitn.it/en
+
+links:
+  - icon: at-symbol
+    url: mailto:marco.broccardo@unitn.it
+    label: E-mail Me
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=yhJCHkoAAAAJ&hl=it&oi=ao
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0003-4058-260X

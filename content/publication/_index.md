@@ -7,7 +7,7 @@ sections:
   - block: markdown
     content:
       text: |
-
+        ## Publications
         <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:1rem">
 
           <select id="yearFilter" style="padding:10px;border-radius:8px">
@@ -19,7 +19,6 @@ sections:
             <option value="paper-article">Journal article</option>
             <option value="paper-conference">Conference</option>
             <option value="thesis">Thesis</option>
-            <option value="news">News</option>
           </select>
 
           <button onclick="resetFilters()" style="padding:10px 14px;border-radius:8px;border:1px solid #bbb;background:white;cursor:pointer">
@@ -61,6 +60,13 @@ sections:
             tagButtons.appendChild(b);
           });
 
+          // -------- TYPE CLASS MAP --------
+          const typeMap = {
+            "paper-article": "pubtype-2",
+            "paper-conference": "pubtype-1",
+            "thesis": "pubtype-7"
+          };
+
           // -------- FILTER ENGINE --------
           window.applyFilters = function(){
             const y = yearFilter.value;
@@ -73,10 +79,16 @@ sections:
               let txt = p.innerText.toLowerCase();
               let show = true;
 
+              // YEAR FILTER
               if(y && !txt.includes(y)) show=false;
 
-              if(t && !txt.includes(t.replace("paper-",""))) show=false;
+              // TYPE FILTER (FIXED)
+              if(t){
+                const neededClass = typeMap[t];
+                if(!p.classList.contains(neededClass)) show=false;
+              }
 
+              // TAG FILTER
               if(activeTags.length){
                 let tagsTxt = [...p.querySelectorAll("a[href*='/tag/']")]
                   .map(x=>x.innerText.toLowerCase());
@@ -114,7 +126,6 @@ sections:
           color:white;
         }
         </style>
-
 
   - block: collection
     content:
