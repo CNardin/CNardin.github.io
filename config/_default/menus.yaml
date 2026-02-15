@@ -25,3 +25,6 @@ main:
   - name: Courses
     url: courses/
     weight: 40
+  - name: Contact
+    url: contact/
+    weight: 50
