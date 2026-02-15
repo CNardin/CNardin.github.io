@@ -34,7 +34,7 @@ tags:
 - Uncertainty quantification
 - Seismic vulnerability
 - spif
-featured: false
+featured: true
 
 #hugoblox:
 #  ids:
