@@ -25,12 +25,15 @@ sections:
                 </div>
                 <div class="form-group">
                 <label class="sr-only" for="inputMessage">Message</label>
-                <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required=""></textarea>
-                </div>
+                <textarea name="message" class="form-control" id="inputMessage" rows="8" placeholder="Message" required style="background:white; min-height:180px; resize:vertical;">
+                </textarea>
                 <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
             </form>
             </div>
             
+  - block: markdown
+    content:
+      text: |
 
             <ul class="fa-ul">                
             
@@ -51,6 +54,9 @@ sections:
             
             </ul>
 
+  - block: markdown
+    content:
+      text: |
             
             <div class="d-none">
                 <input id="map-provider" value="1">
