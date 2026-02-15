@@ -61,14 +61,19 @@ sections:
 
             </ul>
 
-  - block: map
+  - block: markdown
     content:
-        title: ""
-        address: "Wolfgang-Pauli-Strasse, 8049 Zürich"
-        coordinates:
-        latitude: 47.40878965736161
-        longitude: 8.5071705404044
-    design:
-        zoom: 15
+      text: |
+
+        ## Location
+
+        <iframe
+          width="100%"
+          height="420"
+          style="border:0;border-radius:12px"
+          loading="lazy"
+          allowfullscreen
+          src="https://www.google.com/maps?q=47.40878965736161,8.5071705404044&z=15&output=embed">
+        </iframe>
 
 ---
