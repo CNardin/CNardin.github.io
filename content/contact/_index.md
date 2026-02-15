@@ -6,65 +6,69 @@ sections:
 
   - block: markdown
     content:
-      text: |
- 
-            <div class="col-12 col-lg-4 section-heading">
-                <h2>Contact</h2>    
-            </div>           
-                
-
-            <div class="mb-3">
-            <form method="POST" name="contact"><input type="hidden" name="form-name" value="contact">
-                <div class="form-group form-inline">
-                <label class="sr-only" for="inputName">Name</label>
-                <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required="">
-                </div>
-                <div class="form-group form-inline">
-                <label class="sr-only" for="inputEmail">Email</label>
-                <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required="">
-                </div>
-                <div class="form-group">
-                <label class="sr-only" for="inputMessage">Message</label>
-                <textarea name="message" class="form-control" id="inputMessage" rows="8" placeholder="Message" required style="background:white; min-height:180px; resize:vertical;">
-                </textarea>
-                <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
-            </form>
-            </div>
+        text: |
+            <div class="col-12 col-lg-12 section-heading">
+                <h2>Let's get in touch!</h2>    
+            </div>  
+#
+#  - block: markdown
+#    content:
+#      text: |
+# 
+#            <div class="col-12 col-lg-12 section-heading">
+#                <h2>Contact</h2>    
+#            </div>           
+#                
+#
+#            <div class="mb-3">
+#            <form method="POST" name="contact"><input type="hidden" name="form-name" value="contact">
+#                <div class="form-group form-inline">
+#                <label class="sr-only" for="inputName">Name</label>
+#                <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required="">
+#                </div>
+#                <div class="form-group form-inline">
+#                <label class="sr-only" for="inputEmail">Email</label>
+#                <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required="">
+#                </div>
+#                <div class="form-group">
+#                <label class="sr-only" for="inputMessage">Message</label>
+#                <textarea name="message" class="form-control" id="inputMessage" rows="8" placeholder="Message" required style="background:white; min-height:180px; resize:vertical;">
+#                </textarea>
+#                <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+#            </form>
+#            </div>
             
   - block: markdown
     content:
       text: |
 
-            <ul class="fa-ul">                
-            
+            <ul style="list-style:none; padding-left:0">
+
             <li>
-                <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-                <span id="person-address">Wolfgang-Pauli-Strasse, 8049 Zürich</span>
+            {{< icon name="map-pin" pack="hero" >}}
+            Wolfgang-Pauli-Strasse, 8049 Zürich
             </li>
 
             <li>
-                <i class="fa-li fab fa-github fa-2x" aria-hidden="true"></i>
-                <a href="https://github.com/cnardin" target="_blank" rel="noopener">Our code</a>
-            </li>                                   
-            
-            <li>
-                <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-                <a href="/">mailto:cnardin@ethz.ch</a>
+            {{< icon name="github" pack="fab" >}}
+            <a href="https://github.com/cnardin" target="_blank">Our code</a>
             </li>
-            
+
+            <li>
+            {{< icon name="envelope" pack="hero" >}}
+            <a href="mailto:cnardin@ethz.ch">cnardin@ethz.ch</a>
+            </li>
+
             </ul>
 
-  - block: markdown
+  - block: map
     content:
-      text: |
-            
-            <div class="d-none">
-                <input id="map-provider" value="1">
-                <input id="map-lat" value="47.40878965736161">
-                <input id="map-lng" value="8.5071705404044">
-                <input id="map-dir" value="Wolfgang-Pauli-Strasse, 8049 Zürich">
-                <input id="map-zoom" value="15">
-                <input id="map-api-key" value="AIzaSyCA3WRcrUWprPLefbiLa0FiS5AJymB8DOU">
-            </div>
+        title: ""
+        address: "Wolfgang-Pauli-Strasse, 8049 Zürich"
+        coordinates:
+        latitude: 47.40878965736161
+        longitude: 8.5071705404044
+    design:
+        zoom: 15
 
 ---
