@@ -1,0 +1,30 @@
+schema: hugoblox/author/v1
+slug: federico-ugolini
+is_owner: false
+name:
+  display: Federico Ugolini
+  given: Federico
+  family: Ugolini
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: he/him
+postnominals:
+  - PhD
+status:
+  icon: "☕️"
+role: PhD student at UniTn (Italy) 
+bio: |
+  
+
+affiliations:
+  - name: UniTn - Department of Civil, Environmental and Mechanical Engineering
+    url: https://webapps.unitn.it/du/it/Persona/PER0220801
+
+links:
+  - icon: at-symbol
+    url: mailto:federico.ugolini@unitn.it
+    label: E-mail Me
+  - icon: academicons/google-scholar
+#    url: https://scholar.google.com/citations?user=cByNzS4AAAAJ&hl=en&oi=ao
+  - icon: academicons/orcid
+#    url: https://orcid.org/0000-0002-3537-4649
