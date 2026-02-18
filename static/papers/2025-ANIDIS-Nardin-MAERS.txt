@@ -1,1 +1,11 @@
-Nardin, C., Ugolini, F., & Broccardo, M. (2025). Adaptive regional seismic risk assessment under uncertainty: A case study in the Alto Garda area. Structural Integrity Procedia, 00, 000–000. Elsevier. https://www.sciencedirect.com/
+Chiara Nardin, Federico Ugolini, Marco Broccardo,
+Adaptive regional seismic risk assessment under uncertainty: a case study in the Alto Garda area,
+Procedia Structural Integrity,
+Volume 78,
+2026,
+Pages 584-590,
+ISSN 2452-3216,
+https://doi.org/10.1016/j.prostr.2025.12.075.
+(https://www.sciencedirect.com/science/article/pii/S2452321625007036)
+Abstract: A reliable national and regional risk assessment is essential for researchers, practitioners, and decision-makers. Seismic risk assessment is crucial for evaluating earthquake-induced damage to structures, infrastructure, and society. However, it cannot be effectively performed without properly managing uncertainty. In this context, hazard models and vulnerability analysis are the two critical pillars that contribute most to improving risk management, infrastructure planning, and disaster response. In this work, we present an adaptive risk assessment framework for the Alto Garda area, located in northern Italy. Leveraging newly available microzonation data and advanced hazard analysis within OpenQuake engine, the study achieves high spatial resolution at a local scale. Historical earthquake records, cadastral data, open-source maps, and satellite imagery are integrated to (i) compile a comprehensive building taxonomy and (ii) dynamically refine vulnerability models. Additionally, both aleatoric and epistemic uncertainties are carefully considered using a logic tree approach applied to both hazard and fragility analysis. Moreover, an adaptive approach is implemented, meaning that as new information becomes available, updates are seamlessly integrated to enhance accuracy and refine models. By combining hazard and vulnerability maps, the study delivers a first semi-quantitative risk evaluation for the region. This approach highlights the potential of adaptive methodologies in improving seismic risk mitigation strategies and strengthening decision-making under uncertainty.
+Keywords: Seismic regional risk assessment; uncertainty quantification; microzonation data; vulnerability maps; hazard analysis
