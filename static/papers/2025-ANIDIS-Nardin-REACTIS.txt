@@ -1,1 +1,11 @@
-Nardin, C., Marelli, S., Sudret, B., Bursi, O. S., & Broccardo, M. (2025). UQ based state-dependent framework for recovery and seismic risk assessment. Structural Integrity Procedia, XX, xxx–xxx. https://www.sciencedirect.com/…
+Chiara Nardin, Stefano Marelli, Bruno Sudret, Oreste S. Bursi, Marco Broccardo,
+UQ based state-dependent framework for recovery and seismic risk assessment,
+Procedia Structural Integrity,
+Volume 78,
+2026,
+Pages 576-583,
+ISSN 2452-3216,
+https://doi.org/10.1016/j.prostr.2025.12.074.
+(https://www.sciencedirect.com/science/article/pii/S2452321625007024)
+Abstract: Recovery processes and seismic risk assessment represent a critical and challenging frontier in engineering risk analysis under uncertainty. Despite growing attention, the problem remains inherently complex, shaped by nonlinear system behaviours and high-dimensional stochastic spaces. These difficulties are compounded by the limited availability and often confidential nature of recovery data, highlighting the urgent need for modelling approaches that are not only efficient, but also flexible enough to adapt to real-world constraints. In this work, we introduce a novel framework that explicitly integrates recovery into state-dependent seismic risk assessment. The approach combines fragility modelling, recovery processes, and hazard evaluation into a cohesive structure, enabling holistic and reliable risk analysis. Designed for flexibility, the framework draws from the state-of-the-art in different disciplines, such as structural engineering, recovery modelling and probabilistic seismic modelling, and focuses on balancing adaptability and computational efficiency. At the core of the methodology is a state-dependent seismic risk model that embeds recovery through a Continuous-Time Markov Chain (CTMC) framework. This enables the joint evaluation of damage progression and recovery over time. Spectral analysis of the reduced transition matrix allows for reliability-based metrics. The framework is applied to a full-scale industrial steel frame from the European SPIF project, tested under seismic loading at EUCENTRE, demonstrating its ability to capture resilience dynamics with computational efficiency.
+Keywords: Seismic risk assessment; state-dependent analysis; uncertainty quantification; polynomial chaos expansions; recovery functions

@@ -1,0 +1,29 @@
+schema: hugoblox/author/v1
+slug: bruno-sudret
+is_owner: false
+name:
+  display: Bruno Sudret
+  given: Bruno
+  family: Sudret
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: he/him
+postnominals:
+  - PhD
+status:
+  icon: "☕️"
+role: Full Professor at ETH Zurich (Switzerland) in the Chair of Risk, Safety and Uncertainty Quantification (RSUQ)
+bio: |
+
+affiliations:
+  - name: ETH Zurich - Risk Safety and Uncertainty Quantification (RSUQ) Chair 
+    url: https://sudret.ibk.ethz.ch/the-chair/people/prof-dr-bruno-sudret.html
+
+links:
+  - icon: at-symbol
+    url: mailto:sudret@ethz.ch
+    label: E-mail Me
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=lkIklpIAAAAJ&hl=fr
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-9501-7395
