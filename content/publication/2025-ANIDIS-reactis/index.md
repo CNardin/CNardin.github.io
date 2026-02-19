@@ -27,6 +27,7 @@ summary: This research introduces a flexible, state-dependent framework that int
 
 
 tags:
+- reactis
 - seismic risk assessment;
 - state-dependent analysis;
 - uncertainty quantification;
