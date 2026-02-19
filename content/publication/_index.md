@@ -60,12 +60,6 @@ sections:
             tagButtons.appendChild(b);
           });
 
-          // -------- TYPE CLASS MAP --------
-          const typeMap = {
-            "paper-article": "pubtype-2",
-            "paper-conference": "pubtype-1",
-            "thesis": "pubtype-7"
-          };
 
           // -------- FILTER ENGINE --------
           window.applyFilters = function(){
@@ -84,9 +78,9 @@ sections:
 
               // TYPE FILTER (FIXED)
               if(t){
-                const neededClass = typeMap[t];
-                if(!p.classList.contains(neededClass)) show=false;
+                if(!p.classList.contains("pubtype-" + t)) show=false;
               }
+
 
               // TAG FILTER
               if(activeTags.length){
