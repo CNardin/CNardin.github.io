@@ -16,9 +16,10 @@ sections:
 
           <select id="typeFilter" style="padding:10px;border-radius:8px">
             <option value="">All types</option>
-            <option value="paper-article">Journal article</option>
-            <option value="paper-conference">Conference</option>
+            <option value="article">Journal article</option>
+            <option value="conference">Conference</option>
             <option value="thesis">Thesis</option>
+            <option value="news">News</option>
           </select>
 
           <button onclick="resetFilters()" style="padding:10px 14px;border-radius:8px;border:1px solid #bbb;background:white;cursor:pointer">
@@ -36,7 +37,7 @@ sections:
 
           // -------- YEAR DROPDOWN --------
           const years = [...new Set(
-            pubs.map(p => (p.innerText.match(/\b20\d{2}\b/)||[])[0])
+            pubs.map(p => (p.innerText.match(/\b20\d{2}\b/) || [])[0])
           )].filter(Boolean).sort().reverse();
 
           years.forEach(y => {
@@ -75,9 +76,10 @@ sections:
               // YEAR FILTER
               if (y && !txt.includes(y)) show = false;
 
-              // TYPE FILTER
+              // TYPE FILTER (Based on folder structure)
               if (t) {
-                if (p.dataset.pubtype !== t) show = false; // Use the data-pubtype attribute
+                const pubType = p.getAttribute('data-type'); // Get data-type attribute
+                if (pubType !== t) show = false;
               }
 
               // TAG FILTER
@@ -105,27 +107,29 @@ sections:
         </script>
 
         <style>
-        .tagbtn{
-          margin:4px;
-          padding:6px 10px;
-          border-radius:20px;
-          border:1px solid #bbb;
-          background:white;
-          cursor:pointer;
+        .tagbtn {
+          margin: 4px;
+          padding: 6px 10px;
+          border-radius: 20px;
+          border: 1px solid #bbb;
+          background: white;
+          cursor: pointer;
         }
-        .tagbtn.active{
-          background:#333;
-          color:white;
+        .tagbtn.active {
+          background: #333;
+          color: white;
         }
         </style>
 
   - block: collection
     content:
-      title: "Publications"
-      count: 0
+      title: "All Publications"
       filters:
         folders:
-          - publication
+          - articles
+          - conferences
+          - thesis
+          - news
     design:
       view: citation
       sort_by: date
