@@ -127,7 +127,8 @@ sections:
       title: ""
       count: 0
       filters:
-          page_type: publication
+        kind: page
+        section: publication
           #folders:
           #- publication/articles
           #- publication/conferences
