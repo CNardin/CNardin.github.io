@@ -3,166 +3,120 @@ title: Publications
 type: landing
 
 sections:
-
   - block: markdown
     content:
       text: |
-
         ## Publications
         <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:1rem">
-
           <select id="yearFilter" style="padding:10px;border-radius:8px">
             <option value="">All years</option>
           </select>
 
           <select id="typeFilter" style="padding:10px;border-radius:8px">
             <option value="">All types</option>
-            <option value="paper-article">Journal article</option>
-            <option value="paper-conference">Conference</option>
-            <option value="thesis">Thesis</option>
-            <option value="manuscript">Preprint</option>
+            <option value="articles">Journal article</option>
+            <option value="conferences">Conference</option>
+            <option value="preprints">Preprint</option>
           </select>
 
           <button onclick="resetFilters()" style="padding:10px 14px;border-radius:8px;border:1px solid #bbb;background:white;cursor:pointer">
             Reset filters
           </button>
-
         </div>
 
         <div id="tagButtons" style="margin-bottom:1rem"></div>
 
         <script>
         document.addEventListener("DOMContentLoaded", function(){
+          // Give Hugo a tiny moment to render the collection
+          setTimeout(() => {
+            const pubs = [...document.querySelectorAll(".pub-list-item")];
+            
+            // -------- YEAR DROPDOWN --------
+            const yearSelect = document.getElementById("yearFilter");
+            const years = [...new Set(
+              pubs.map(p => (p.innerText.match(/\b20\d{2}\b/) || [])[0])
+            )].filter(Boolean).sort().reverse();
 
-          const pubs = [...document.querySelectorAll(".pub-list-item")];
-
-          // -------- YEAR DROPDOWN --------
-          const years = [...new Set(
-            pubs.map(p => (p.innerText.match(/\b20\d{2}\b/) || [])[0])
-          )].filter(Boolean).sort().reverse();
-
-          years.forEach(y => {
-            let o = new Option(y, y);
-            yearFilter.add(o);
-          });
-
-          // -------- TAG BUTTONS --------
-          const tagSet = new Set();
-          pubs.forEach(p => {
-            p.querySelectorAll("a[href*='/tag/']").forEach(t => {
-              tagSet.add(t.innerText.trim());
+            years.forEach(y => {
+              yearSelect.add(new Option(y, y));
             });
-          });
 
-          tagSet.forEach(tag => {
-            let b = document.createElement("button");
-            b.innerText = tag;
-            b.className = "tagbtn";
-            b.onclick = () => { b.classList.toggle("active"); applyFilters(); };
-            tagButtons.appendChild(b);
-          });
-
-
-
-          // -------- FILTER ENGINE --------
-          window.applyFilters = function() {
-            const y = yearFilter.value;
-            const t = typeFilter.value;
-
-            const activeTags = [...document.querySelectorAll(".tagbtn.active")]
-              .map(b => b.innerText.toLowerCase());
-
+            // -------- TAG BUTTONS --------
+            const tagContainer = document.getElementById("tagButtons");
+            const tagSet = new Set();
             pubs.forEach(p => {
-              let txt = p.innerText.toLowerCase();
-              let show = true;
+              p.querySelectorAll("a[href*='/tag/']").forEach(t => tagSet.add(t.innerText.trim()));
+            });
 
-              // 1. YEAR FILTER
-              if (y && !txt.includes(y)) show = false;
+            tagSet.forEach(tag => {
+              let b = document.createElement("button");
+              b.innerText = tag;
+              b.className = "tagbtn";
+              b.onclick = () => { b.classList.toggle("active"); applyFilters(); };
+              tagContainer.appendChild(b);
+            });
 
-              // 2. TYPE FILTER (Checking the URL path of the links)
-              if (t && show) {
-                // Get all hrefs from links inside this publication item
-                const links = [...p.querySelectorAll("a")].map(a => a.getAttribute("href") || "");
-                
-                const typeMap = {
-                  'paper-article': '/articles/',
-                  'paper-conference': '/conferences/',
-                  'thesis': '/thesis/',
-                  'manuscript': '/preprints/'
-                };
+            // -------- FILTER ENGINE --------
+            window.applyFilters = function() {
+              const y = document.getElementById("yearFilter").value;
+              const t = document.getElementById("typeFilter").value;
+              const activeTags = [...document.querySelectorAll(".tagbtn.active")].map(b => b.innerText.toLowerCase());
 
-                const folderToMatch = typeMap[t];
+              pubs.forEach(p => {
+                let txt = p.innerText.toLowerCase();
+                let links = [...p.querySelectorAll("a")].map(a => a.getAttribute("href") || "");
+                let show = true;
 
-                // Check if ANY link in this item contains the folder string
-                // OR check for your specific 2025-anidis folder if it's a conference
-                let matchType = links.some(link => link.includes(folderToMatch));
-                
-                // Special check for your custom folder name
-                if (t === 'paper-conference' && !matchType) {
-                  matchType = links.some(link => link.includes('/2025-anidis-maers/'));
+                // 1. Year Filter
+                if (y && !txt.includes(y)) show = false;
+
+                // 2. Type Filter (Checking URLs for folder names)
+                if (show && t) {
+                  // We check if any link contains the folder name (e.g., /articles/ or /conferences/)
+                  // This also covers your custom folder "2025-anidis-maers" if it's inside /conferences/
+                  const folderPattern = "/" + t + "/";
+                  const hasFolder = links.some(l => l.includes(folderPattern) || l.includes("2025-anidis-maers"));
+                  if (!hasFolder) show = false;
                 }
 
-                if (!matchType) show = false;
-              }
+                // 3. Tag Filter
+                if (show && activeTags.length) {
+                  let tagsTxt = [...p.querySelectorAll("a[href*='/tag/']")].map(x => x.innerText.toLowerCase());
+                  if (!activeTags.some(tag => tagsTxt.includes(tag))) show = false;
+                }
 
-              // 3. TAG FILTER
-              if (activeTags.length && show) {
-                let tagsTxt = [...p.querySelectorAll("a[href*='/tag/']")]
-                  .map(x => x.innerText.toLowerCase());
-                if (!activeTags.some(tag => tagsTxt.includes(tag))) show = false;
-              }
+                p.style.display = show ? "" : "none";
+              });
+            };
 
-              p.style.display = show ? "" : "none";
-            });
-          }
+            window.resetFilters = function() {
+              document.getElementById("yearFilter").value = "";
+              document.getElementById("typeFilter").value = "";
+              document.querySelectorAll(".tagbtn").forEach(b => b.classList.remove("active"));
+              applyFilters();
+            };
 
-
-          window.resetFilters = function() {
-            yearFilter.value = "";
-            typeFilter.value = "";
-            document.querySelectorAll(".tagbtn").forEach(b => b.classList.remove("active"));
-            applyFilters();
-          }
-
-          yearFilter.onchange = applyFilters;
-          typeFilter.onchange = applyFilters;
-
+            document.getElementById("yearFilter").onchange = applyFilters;
+            document.getElementById("typeFilter").onchange = applyFilters;
+          }, 500); 
         });
         </script>
 
         <style>
-        .tagbtn {
-          margin: 4px;
-          padding: 6px 10px;
-          border-radius: 20px;
-          border: 1px solid #bbb;
-          background: white;
-          cursor: pointer;
-        }
-        .tagbtn.active {
-          background: #333;
-          color: white;
-        }
+        .tagbtn { margin: 4px; padding: 6px 10px; border-radius: 20px; border: 1px solid #bbb; background: white; cursor: pointer; }
+        .tagbtn.active { background: #333; color: white; }
         </style>
 
   - block: collection
     content:
       title: ""
-#      count: 0
       filters:
-        folders: 
-          - publication/articles
-          - publication/conferences
-          - publication/preprints
-        exclude_featured: false
-        include_subfolders: true # This is the key setting
-          #folders:
-          #- publication/articles
-          #- publication/conferences
-          #- publication/2025-ANIDIS-maers
+        folders:
+          - publication
+        include_subfolders: true
     design:
       view: citation
       sort_by: date
       sort_ascending: false
-      columns: 1
 ---
