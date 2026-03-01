@@ -77,12 +77,24 @@ sections:
               // YEAR FILTER
               if (y && !txt.includes(y)) show = false;
 
-              // TYPE FILTER (Based on folder structure)
+              // TYPE FILTER (Check if the link contains the folder name)
               if (t) {
-                const pubType = p.getAttribute('data-type'); // Get data-type attribute
-                if (pubType !== t) show = false;
-              }
+                // Find the link inside the publication item
+                const link = p.querySelector('a')?.getAttribute('href') || "";
+                
+                // Map your filter values to your folder names
+                const typeMap = {
+                  'paper-article': '/articles/',
+                  'paper-conference': '/conferences/',
+                  'manuscript': '/preprints/',
+                  'thesis': '/thesis/' // add others if needed
+                };
 
+                const folderToMatch = typeMap[t];
+                if (folderToMatch && !link.includes(folderToMatch)) {
+                  show = false;
+                }
+              }
               // TAG FILTER
               if (activeTags.length) {
                 let tagsTxt = [...p.querySelectorAll("a[href*='/tag/']")]
@@ -125,9 +137,12 @@ sections:
   - block: collection
     content:
       title: ""
-      count: 0
+#      count: 0
       filters:
-        folders: publication
+        folders: 
+          - publication
+        exclude_featured: false
+        include_subfolders: true # This is the key setting
           #folders:
           #- publication/articles
           #- publication/conferences
