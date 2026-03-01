@@ -62,6 +62,8 @@ sections:
             tagButtons.appendChild(b);
           });
 
+
+
           // -------- FILTER ENGINE --------
           window.applyFilters = function() {
             const y = yearFilter.value;
@@ -74,29 +76,37 @@ sections:
               let txt = p.innerText.toLowerCase();
               let show = true;
 
-              // YEAR FILTER
+              // 1. YEAR FILTER
               if (y && !txt.includes(y)) show = false;
 
-              // TYPE FILTER (Check if the link contains the folder name)
-              if (t) {
-                // Find the link inside the publication item
-                const link = p.querySelector('a')?.getAttribute('href') || "";
+              // 2. TYPE FILTER (Checking the URL path of the links)
+              if (t && show) {
+                // Get all hrefs from links inside this publication item
+                const links = [...p.querySelectorAll("a")].map(a => a.getAttribute("href") || "");
                 
-                // Map your filter values to your folder names
                 const typeMap = {
                   'paper-article': '/articles/',
                   'paper-conference': '/conferences/',
-                  'manuscript': '/preprints/',
-                  'thesis': '/thesis/' // add others if needed
+                  'thesis': '/thesis/',
+                  'manuscript': '/preprints/'
                 };
 
                 const folderToMatch = typeMap[t];
-                if (folderToMatch && !link.includes(folderToMatch)) {
-                  show = false;
+
+                // Check if ANY link in this item contains the folder string
+                // OR check for your specific 2025-anidis folder if it's a conference
+                let matchType = links.some(link => link.includes(folderToMatch));
+                
+                // Special check for your custom folder name
+                if (t === 'paper-conference' && !matchType) {
+                  matchType = links.some(link => link.includes('/2025-anidis-maers/'));
                 }
+
+                if (!matchType) show = false;
               }
-              // TAG FILTER
-              if (activeTags.length) {
+
+              // 3. TAG FILTER
+              if (activeTags.length && show) {
                 let tagsTxt = [...p.querySelectorAll("a[href*='/tag/']")]
                   .map(x => x.innerText.toLowerCase());
                 if (!activeTags.some(tag => tagsTxt.includes(tag))) show = false;
@@ -105,6 +115,7 @@ sections:
               p.style.display = show ? "" : "none";
             });
           }
+
 
           window.resetFilters = function() {
             yearFilter.value = "";
@@ -140,7 +151,9 @@ sections:
 #      count: 0
       filters:
         folders: 
-          - publication
+          - publication/articles
+          - publication/conferences
+          - publication/preprints
         exclude_featured: false
         include_subfolders: true # This is the key setting
           #folders:
