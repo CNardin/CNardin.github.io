@@ -127,7 +127,6 @@ sections:
       title: ""
       count: 0
       filters:
-        kind: page
         section: publication
           #folders:
           #- publication/articles
