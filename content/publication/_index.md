@@ -98,9 +98,9 @@ sections:
       filters:
         folders:
           - publication
-          - publication/articles
-          - publication/conferences
-          - publication/preprint
+#          - publication/articles
+#          - publication/conferences
+#          - publication/preprint
         # Remove include_subfolders if listing explicitly, 
         # but keeping it doesn't hurt.
         include_subfolders: true
