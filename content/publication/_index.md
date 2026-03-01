@@ -28,34 +28,18 @@ sections:
 
         <script>
         document.addEventListener("DOMContentLoaded", function(){
-          // Give Hugo a tiny moment to render the collection
+          // Increased delay slightly to ensure Hugo Blox finishes rendering
           setTimeout(() => {
             const pubs = [...document.querySelectorAll(".pub-list-item")];
-            
+            console.log("Total publications found:", pubs.length); // Debug check
+
             // -------- YEAR DROPDOWN --------
             const yearSelect = document.getElementById("yearFilter");
             const years = [...new Set(
               pubs.map(p => (p.innerText.match(/\b20\d{2}\b/) || [])[0])
             )].filter(Boolean).sort().reverse();
 
-            years.forEach(y => {
-              yearSelect.add(new Option(y, y));
-            });
-
-            // -------- TAG BUTTONS --------
-            const tagContainer = document.getElementById("tagButtons");
-            const tagSet = new Set();
-            pubs.forEach(p => {
-              p.querySelectorAll("a[href*='/tag/']").forEach(t => tagSet.add(t.innerText.trim()));
-            });
-
-            tagSet.forEach(tag => {
-              let b = document.createElement("button");
-              b.innerText = tag;
-              b.className = "tagbtn";
-              b.onclick = () => { b.classList.toggle("active"); applyFilters(); };
-              tagContainer.appendChild(b);
-            });
+            years.forEach(y => yearSelect.add(new Option(y, y)));
 
             // -------- FILTER ENGINE --------
             window.applyFilters = function() {
@@ -64,25 +48,30 @@ sections:
               const activeTags = [...document.querySelectorAll(".tagbtn.active")].map(b => b.innerText.toLowerCase());
 
               pubs.forEach(p => {
-                let txt = p.innerText.toLowerCase();
-                let links = [...p.querySelectorAll("a")].map(a => a.getAttribute("href") || "");
+                const txt = p.innerText.toLowerCase();
+                const links = [...p.querySelectorAll("a")].map(a => a.getAttribute("href") || "");
                 let show = true;
 
                 // 1. Year Filter
                 if (y && !txt.includes(y)) show = false;
 
-                // 2. Type Filter (Checking URLs for folder names)
+                // 2. Type Filter
                 if (show && t) {
-                  // We check if any link contains the folder name (e.g., /articles/ or /conferences/)
-                  // This also covers your custom folder "2025-anidis-maers" if it's inside /conferences/
-                  const folderPattern = "/" + t + "/";
-                  const hasFolder = links.some(l => l.includes(folderPattern) || l.includes("2025-anidis-maers"));
-                  if (!hasFolder) show = false;
+                  // Check if any link contains the category name 
+                  // (matches /articles/, /conferences/, or /preprint/)
+                  const hasFolder = links.some(l => l.toLowerCase().includes('/' + t.toLowerCase() + '/'));
+                  
+                  // Fallback: check the text content of the citation for specific conference names
+                  const hasTextMatch = txt.includes('anidis') || txt.includes('wcee') || txt.includes('eurodyn');
+                  
+                  if (!hasFolder && !(t === 'conferences' && hasTextMatch)) {
+                    show = false;
+                  }
                 }
 
                 // 3. Tag Filter
                 if (show && activeTags.length) {
-                  let tagsTxt = [...p.querySelectorAll("a[href*='/tag/']")].map(x => x.innerText.toLowerCase());
+                  const tagsTxt = [...p.querySelectorAll("a[href*='/tag/']")].map(x => x.innerText.toLowerCase());
                   if (!activeTags.some(tag => tagsTxt.includes(tag))) show = false;
                 }
 
@@ -90,16 +79,11 @@ sections:
               });
             };
 
-            window.resetFilters = function() {
-              document.getElementById("yearFilter").value = "";
-              document.getElementById("typeFilter").value = "";
-              document.querySelectorAll(".tagbtn").forEach(b => b.classList.remove("active"));
-              applyFilters();
-            };
-
+            // Initialize listeners
             document.getElementById("yearFilter").onchange = applyFilters;
             document.getElementById("typeFilter").onchange = applyFilters;
-          }, 500); 
+
+          }, 800); 
         });
         </script>
 
@@ -114,6 +98,11 @@ sections:
       filters:
         folders:
           - publication
+          - publication/articles
+          - publication/conferences
+          - publication/preprint
+        # Remove include_subfolders if listing explicitly, 
+        # but keeping it doesn't hurt.
         include_subfolders: true
     design:
       view: citation
