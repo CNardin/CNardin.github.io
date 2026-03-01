@@ -17,10 +17,10 @@ sections:
 
           <select id="typeFilter" style="padding:10px;border-radius:8px">
             <option value="">All types</option>
-            <option value="article">Journal article</option>
-            <option value="conference">Conference</option>
+            <option value="paper-article">Journal article</option>
+            <option value="paper-conference">Conference</option>
             <option value="thesis">Thesis</option>
-            <option value="news">News</option>
+            <option value="manuscript">Preprint</option>
           </select>
 
           <button onclick="resetFilters()" style="padding:10px 14px;border-radius:8px;border:1px solid #bbb;background:white;cursor:pointer">
@@ -127,10 +127,11 @@ sections:
       title: ""
       count: 0
       filters:
-        folders:
-          - publication/articles
-          - publication/conferences
-          - publication/2025-ANIDIS-maers
+          page_type: publication
+          #folders:
+          #- publication/articles
+          #- publication/conferences
+          #- publication/2025-ANIDIS-maers
     design:
       view: citation
       sort_by: date
