@@ -1,0 +1,28 @@
+/* Target pages with 'type: landing' in the front matter */
+.type-landing {
+  /* 1. Force the main container to be wider */
+  .container, .universal-wrapper {
+    max-width: 1200px !important; /* Standard wide-screen width */
+    width: 95% !important;
+  }
+
+  /* 2. Enlarge the project description text */
+  .section-text {
+    font-size: 1.25rem !important; /* Increases font size significantly */
+    line-height: 1.7;              /* Adds breathing room */
+    color: #333;                   /* Ensures high contrast */
+  }
+
+  /* 3. Ensure the Gantt Chart (Mermaid) takes up the full width */
+  .mermaid {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+  }
+}
+
+/* Optional: Make the publication table font match */
+.type-landing table {
+    font-size: 1.1rem;
+}
