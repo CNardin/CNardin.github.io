@@ -28,68 +28,73 @@ sections:
 
         <script>
         document.addEventListener("DOMContentLoaded", function(){
-          // Increased delay slightly to ensure Hugo Blox finishes rendering
+          // Increased delay to 1000ms to ensure the collection block is fully rendered
           setTimeout(() => {
+            // TARGETING CORRECT CLASS: .pub-list-item is used for 'view: citation'
             const pubs = [...document.querySelectorAll(".pub-list-item")];
-            console.log("Total publications found:", pubs.length); // Debug check
+            
+            if (pubs.length === 0) {
+              console.warn("No publications found with .pub-list-item. Trying alternative selectors.");
+            }
 
-            // -------- YEAR DROPDOWN --------
+            // ---------- ADD DATA ATTRIBUTES ----------
+            pubs.forEach(p => {
+              const text = p.innerText;
+
+              // 1. Extract year
+              const yearMatch = text.match(/\b(20\d{2})\b/);
+              if (yearMatch) p.dataset.year = yearMatch[1];
+
+              // 2. Detect type from ANY link inside the item
+              // We look for the folder names in the href of all links (Title, PDF, Cite, etc.)
+              const links = [...p.querySelectorAll("a")].map(a => a.getAttribute("href") || "");
+              
+              if (links.some(l => l.includes("/articles/"))) {
+                p.dataset.type = "articles";
+              } else if (links.some(l => l.includes("/conferences/"))) {
+                p.dataset.type = "conferences";
+              } else if (links.some(l => l.includes("/preprint/"))) {
+                p.dataset.type = "preprints";
+              }
+            });
+
+            // ---------- BUILD YEAR DROPDOWN ----------
             const yearSelect = document.getElementById("yearFilter");
-            const years = [...new Set(
-              pubs.map(p => (p.innerText.match(/\b20\d{2}\b/) || [])[0])
-            )].filter(Boolean).sort().reverse();
+            const years = [...new Set(pubs.map(p => p.dataset.year))]
+              .filter(Boolean)
+              .sort()
+              .reverse();
 
             years.forEach(y => yearSelect.add(new Option(y, y)));
 
-            // -------- FILTER ENGINE --------
+            // ---------- FILTER FUNCTION ----------
             window.applyFilters = function() {
-              const y = document.getElementById("yearFilter").value;
-              const t = document.getElementById("typeFilter").value;
-              const activeTags = [...document.querySelectorAll(".tagbtn.active")].map(b => b.innerText.toLowerCase());
+              const selectedYear = document.getElementById("yearFilter").value;
+              const selectedType = document.getElementById("typeFilter").value;
 
               pubs.forEach(p => {
-                const txt = p.innerText.toLowerCase();
-                const links = [...p.querySelectorAll("a")].map(a => a.getAttribute("href") || "");
-                let show = true;
+                let yearMatch = !selectedYear || p.dataset.year === selectedYear;
+                let typeMatch = !selectedType || p.dataset.type === selectedType;
 
-                // 1. Year Filter
-                if (y && !txt.includes(y)) show = false;
-
-                // 2. Type Filter
-                if (show && t) {
-                  // Check if any link contains the category name 
-                  // (matches /articles/, /conferences/, or /preprint/)
-                  const hasFolder = links.some(l => l.toLowerCase().includes('/' + t.toLowerCase() + '/'));
-                  
-                  // Fallback: check the text content of the citation for specific conference names
-                  const hasTextMatch = txt.includes('anidis') || txt.includes('wcee') || txt.includes('eurodyn');
-                  
-                  if (!hasFolder && !(t === 'conferences' && hasTextMatch)) {
-                    show = false;
-                  }
-                }
-
-                // 3. Tag Filter
-                if (show && activeTags.length) {
-                  const tagsTxt = [...p.querySelectorAll("a[href*='/tag/']")].map(x => x.innerText.toLowerCase());
-                  if (!activeTags.some(tag => tagsTxt.includes(tag))) show = false;
-                }
-
-                p.style.display = show ? "" : "none";
+                p.style.display = (yearMatch && typeMatch) ? "" : "none";
               });
             };
 
-            // Initialize listeners
+            window.resetFilters = function() {
+              document.getElementById("yearFilter").value = "";
+              document.getElementById("typeFilter").value = "";
+              applyFilters();
+            };
+
             document.getElementById("yearFilter").onchange = applyFilters;
             document.getElementById("typeFilter").onchange = applyFilters;
 
-          }, 800); 
+          }, 1000);
         });
         </script>
 
         <style>
-        .tagbtn { margin: 4px; padding: 6px 10px; border-radius: 20px; border: 1px solid #bbb; background: white; cursor: pointer; }
-        .tagbtn.active { background: #333; color: white; }
+        .pub-list-item { margin-bottom: 1rem; }
         </style>
 
   - block: collection
@@ -98,12 +103,8 @@ sections:
       filters:
         folders:
           - publication
-#          - publication/articles
-#          - publication/conferences
-#          - publication/preprint
-        # Remove include_subfolders if listing explicitly, 
-        # but keeping it doesn't hurt.
         include_subfolders: true
+      count: 0
     design:
       view: citation
       sort_by: date

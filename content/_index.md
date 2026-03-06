@@ -72,6 +72,7 @@ sections:
         tag: ''
         folders:
           - publication
+        include_subfolders: true 
         exclude_featured: false
     design:
       view: citation
