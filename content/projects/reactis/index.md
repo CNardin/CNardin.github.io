@@ -11,16 +11,17 @@ tags:
 - projects
 --- 
 
-## Ciao
-Qui provo a scrivere
+<!-- ## Ciao
+Qui provo a scrivere -->
 
 {{< cards >}}
   {{< card url="project-infos" title="Project's Infos" icon="document-duplicate" >}}
-  {{< card url="project-structure" title="Related Publications" icon="document-duplicate" >}}
+  {{< card url="../reactis/reactis-references" title="Related Publications" icon="document-duplicate" >}}
   {{< card url="configuration" title="Code Repository and Library" icon="adjustments-vertical" >}}
 {{< /cards >}}
 
-
+[ehi](../reactis/project-infos)
+[ciao](../reactis/reactis-references)
 
 <!-- sections:
   - block: markdown

@@ -1,4 +1,64 @@
 ---
+title: Let's Connect
+type: landing
+
+sections:
+  - block: markdown
+    content:
+      title: ""
+      text: |-
+        <div class="row">
+        <div class="col-md-6 mb-4">
+          <div style="padding: 32px; height: 100%; border: 2px solid #000000; border-radius: 12px; background-color: rgba(255,255,255,0.03);">
+            <h2 style="margin-top: 0; margin-bottom: 24px;">Contact Information</h2>
+            <p style="opacity: 0.8; margin-bottom: 30px;">Let's connect!</p>
+                      
+          <ul style="list-style: none; padding-left: 0; line-height: 3.5;">
+            <li><span style="margin-right: 15px;">✉️</span> <a href="mailto:cnardin@ethz.ch">cnardin@ethz.ch</a></li>
+            <li><span style="margin-right: 15px;">💼</span> <a href="https://linkedin.com/in/chiara-nardin" target="_blank">linkedin.com/in/chiara-nardin</a></li>
+            <li><span style="margin-right: 15px;">💻</span> <a href="https://github.com/cnardin" target="_blank">github.com/cnardin</a></li>
+            <li><span style="margin-right: 15px;">📍</span> Zürich, Switzerland</li>
+          </ul>
+          </div>
+        </div>
+        </div>
+        
+        <div class="col-md-6 mb-4">
+        <div style="padding: 32px; height: 100%; border: 2px solid #000000; border-radius: 12px; background-color: rgba(255,255,255,0.03);">
+        <h2 style="margin-top: 0; margin-bottom: 24px;">Send me a message</h2>
+        <form method="POST" name="contact" data-netlify="true">
+          
+          <div class="form-group mb-3" style="display: block; width: 100%;">
+            <label style="display: block; font-size: 0.85rem; opacity: 0.7; margin-bottom: 5px;">Name</label>
+            <input type="text" name="name" class="form-control" style="width: 100%; background: rgba(0,0,0,0.3); border: 1px solid #333; color: white; padding: 10px; border-radius: 6px;" required>
+          </div>
+
+          <div class="form-group mb-3" style="display: block; width: 100%;">
+            <label style="display: block; font-size: 0.85rem; opacity: 0.7; margin-bottom: 5px;">Email</label>
+            <input type="email" name="email" class="form-control" style="width: 100%; background: rgba(0,0,0,0.3); border: 1px solid #333; color: white; padding: 10px; border-radius: 6px;" required>
+          </div>
+
+          <div class="form-group mb-3" style="display: block; width: 100%;">
+            <label style="display: block; font-size: 0.85rem; opacity: 0.7; margin-bottom: 5px;">Subject</label>
+            <input type="text" name="subject" class="form-control" style="width: 100%; background: rgba(0,0,0,0.3); border: 1px solid #333; color: white; padding: 10px; border-radius: 6px;" required>
+          </div>
+
+          <div class="form-group mb-4" style="display: block; width: 100%;">
+            <label style="display: block; font-size: 0.85rem; opacity: 0.7; margin-bottom: 5px;">Message</label>
+            <textarea name="message" class="form-control" rows="5" style="width: 100%; background: rgba(0,0,0,0.3); border: 1px solid #333; color: white; padding: 10px; border-radius: 6px; resize: vertical;" required></textarea>
+          </div>
+
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary" style="padding: 10px 60px; border-radius: 8px; font-weight: bold;">Send</button>
+          </div>
+          
+        </form>
+        </div>
+        </div>
+    design:
+      columns: '2'
+---
+<!-- ---
 title: Contact
 type: landing
 
@@ -77,3 +137,4 @@ sections:
         </iframe>
 
 ---
+ -->
