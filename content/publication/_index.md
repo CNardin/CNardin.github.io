@@ -17,6 +17,7 @@ sections:
             <option value="articles">Journal article</option>
             <option value="conferences">Conference</option>
             <option value="preprints">Preprint</option>
+            <option value="news">News</option>
           </select>
 
           <button onclick="resetFilters()" style="padding:10px 14px;border-radius:8px;border:1px solid #bbb;background:white;cursor:pointer">
@@ -55,7 +56,8 @@ sections:
                 p.dataset.type = "conferences";
               } else if (links.some(l => l.includes("/preprint/"))) {
                 p.dataset.type = "preprints";
-              }
+              } else if (links.some(l => l.includes("/news/"))) {
+              } p.dataset.type = "news";
             });
 
             // ---------- BUILD YEAR DROPDOWN ----------

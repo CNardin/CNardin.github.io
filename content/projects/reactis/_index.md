@@ -20,8 +20,8 @@ Qui provo a scrivere -->
   {{< card url="configuration" title="Code Repository and Library" icon="adjustments-vertical" >}}
 {{< /cards >}}
 
-[ehi](../reactis/project-infos)
-[ciao](../reactis/reactis-references)
+<!-- [ehi](../reactis/project-infos)
+[ciao](../reactis/reactis-references) -->
 
 <!-- sections:
   - block: markdown
