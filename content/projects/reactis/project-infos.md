@@ -22,7 +22,7 @@ Funded by the **European Union**. Views and opinions expressed are however those
 **GA n°101147351** “*Seismic Risk Reduction and Adaptation for Complex Timedependent Industrial Systems REACTIS*”.
 
 <div class="text-center" style="margin: 20px 0;">
-  <img src="./image.png" alt="Schema REACTIS" style="max-width: 100%; border-radius: 8px; border: 1px solid #000;">
+  <img src="../../../static/projects/image-1.png" alt="Schema REACTIS" style="max-width: 100%; border-radius: 8px; border: 1px solid #000;">
   <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Fig 1: Schema del sistema industriale REACTIS</p>
 </div>
 
