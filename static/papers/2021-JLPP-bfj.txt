@@ -1,0 +1,11 @@
+F. Paolacci, G. Quinci, C. Nardin, V. Vezzari, A. Marino, M. Ciucci,
+Bolted flange joints equipped with FBG sensors in industrial piping systems subjected to seismic loads,
+Journal of Loss Prevention in the Process Industries,
+Volume 72,
+2021,
+104576,
+ISSN 0950-4230,
+https://doi.org/10.1016/j.jlp.2021.104576.
+(https://www.sciencedirect.com/science/article/pii/S0950423021001856)
+Abstract: The vulnerability of major-hazard industrial plants to natural hazards has been recognized as an emergent issue whose importance is underlined by the Sendai Framework, established immediately after the Tohoku earthquake of 2011, in Japan. Hence, seismic risk analysis is of paramount importance as testified by the intense research activity that characterized the last years. In this respect, structural health monitoring can represent a valuable tool able to strongly help the decision-making phase. Along this main vein, optical fibers (OFs) represent a class of sensors able to both monitor critical conditions, as leakage of hazardous material, and activate safety barriers, if any. More precisely, optical fibers represent an economic solution, whose characteristics appear particularly suitable for dangerous environments like major-hazard plants. However, investigations relevant to their use for seismic monitoring of chemical/petrochemical plants are rather limited, especially when subject to strong dynamic excitations. As a result, this paper deals with the analysis of optical fiber Bragg gratings (FBGs) applied to bolted flange joints (BFJ) under cyclic loadings. More precisely, two experimental programs, i.e., a cyclic test on a single BFJ and a series of shaking table tests on BFJs of a multicomponent system, demonstrated the effectiveness of the proposed monitoring systems in detecting hazardous conditions and, thus, their potential use in conjunction with safety barriers.
+Keywords: Piping systems; Bolted flange joint; Leakage detection; Fiber bragg grating; Optical fibers
