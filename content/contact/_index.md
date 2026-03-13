@@ -3,6 +3,65 @@ title: Let's Connect
 type: landing
 
 sections:
+  - block: contact-info
+    content:
+      title: Let's Connect
+      username: chiara-nardin
+    design:
+      spacing:
+        padding: ['5rem', '0', '5rem', '0']
+
+  - block: markdown
+    content:
+      title: Active/past collaborations with people from
+      text: |
+        <div style="text-align:center;">
+          <img src="Active_Past_collaborations_with_people_from.png" style="width:250%; max-width:700px;">
+        </div>
+    design:
+      spacing:
+        padding: ['5rem', '0', '5rem', '0']
+
+  # - block: search-hero
+  #   content:
+  #     title: Search Publications
+  #     placeholder: Search by keyword, author, topic...
+  #   design:
+  #     spacing:
+  #       padding: ['3rem', '0', '3rem', '0']
+
+  # - block: tech-stack
+  #   content:
+  #     title: Tools & Software
+  #     items:
+  #       - name: Python
+  #         icon: brands/python
+  #       - name: MATLAB
+  #         icon: custom/matlab
+  #       - name: OpenSees
+  #         icon: custom/opensees
+  #   design:
+  #     spacing:
+  #       padding: ['3rem', '0', '3rem', '0']
+  
+  # - block: stats
+  #   content:
+  #     title: By the Numbers
+  #     items:
+  #       - statistic: "50+"
+  #         description: Publications
+  #       - statistic: "10"
+  #         description: Years Experience
+  #       - statistic: "3"
+  #         description: Countries
+  #   design:
+  #     spacing:
+  #       padding: ['3rem', '0', '3rem', '0']
+---
+<!-- title: Let's Connect
+type: landing
+
+sections:
   - block: markdown
     content:
       title: ""
@@ -57,7 +116,7 @@ sections:
         </div>
     design:
       columns: '2'
----
+--- -->
 <!-- ---
 title: Contact
 type: landing

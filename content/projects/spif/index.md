@@ -13,7 +13,7 @@ blocks:
 
 ---
 ### Project's objectives
-The objective of the project [SPIF](https://sera-ta.eucentre.it/shake-table-tests-of-a-special-risk-industrial-facility-at-eucentre-laboratories/) is the holistic investigation of the seismic behaviour of industrial plants equipped with complex process technology by means of shaking table tests.
+The objective of the project [SPIF](https://sera-ta.eucentre.it/shake-table-tests-of-a-special-risk-industrial-facility-at-eucentre-laboratories/) is the holistic investigation of the seismic behaviour of industrial plants equipped with complex process technology by means of shaking table tests. 
 ![ehi](./featured.png)
 
 ### Related publications
