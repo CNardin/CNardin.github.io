@@ -2,12 +2,13 @@
 linkTitle: REACTIS
 title: REACTIS
 date: 2025-01-01
-type: docs
+type: docs  # Using landing instead of docs to avoid the 'publication_types' panic
+# Summary for listing cards
 summary: "An open-source tool for automated data analysis."
 build:
   list: always
   render: always
-tags:
+tags: 
 - reactis
 - projects
 --- 
