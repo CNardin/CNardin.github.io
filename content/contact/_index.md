@@ -3,24 +3,35 @@ title: Let's Connect
 type: landing
 
 sections:
+  - block: markdown
+    content:
+      title: ''
+      text: |
+        <style>
+        .grid .max-w-3xl { max-width: 50% !important; }
+        </style>
+    design:
+      spacing:
+        padding: ['0', '0', '0', '0']
   - block: contact-info
     content:
       title: Let's Connect
       username: chiara-nardin
     design:
       spacing:
-        padding: ['5rem', '0', '5rem', '0']
+        padding: ['10px', '10px', '10px', '10px']
 
-  # - block: markdown
-  #   content:
-  #     title: Active/past collaborations with people from
-  #     text: |
-  #       <div style="text-align:center;">
-  #         <img src="Active_Past_collaborations_with_people_from.png" style="width:250%; max-width:700px;">
-  #       </div>
-  #   design:
-  #     spacing:
-  #       padding: ['5rem', '0', '5rem', '0']
+
+  - block: markdown
+    content:
+      title: Active/past collaborations with people from
+      text: |
+        <div style="text-align:center; margin-left: calc(-20vw + 50%); margin-right: calc(-50vw + 50%);">
+          <img src="Active_Past_collaborations_with_people_from.png" style="width:100%; max-width:700px;">
+        </div>
+    design:
+      spacing:
+        padding: ['5rem', '0', '5rem', '0']
 
   # - block: search-hero
   #   content:

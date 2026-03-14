@@ -8,6 +8,7 @@ tags:
   - Bay-Fi
   - System Identification
   - Sub-Nyquist
+weight: 2
 ---
 
 This study introduces a novel general method, named Bayesian Frequency Identification (**Bay-Fi**), which enables direct identification of the main modal frequency without requiring signal reconstruction and any prior tuning. The proposed approach employs a Bayesian framework to optimize a curve-fitting algorithm applied to highly under-sampled and randomly acquired vibration signals.

@@ -88,7 +88,7 @@ sections:
 
     design:
       spacing:
-        padding: ['1rem', '0', '0', '0']
+        padding: ['1rem', '0', '0rem', '0']
 
   - block: collection
     content:
@@ -102,4 +102,6 @@ sections:
       view: citation
       sort_by: date
       sort_ascending: false
+      spacing:
+        padding: ['0', '0', '0', '0']
 ---

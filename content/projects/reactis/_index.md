@@ -8,9 +8,15 @@ summary: "An open-source tool for automated data analysis."
 build:
   list: always
   render: always
+
 tags: 
 - reactis
 - projects
+
+toc: true
+weight: 1
+sidebar:
+  open: true
 --- 
 
 <!-- ## Ciao

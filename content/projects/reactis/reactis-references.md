@@ -1,11 +1,10 @@
 ---
 title: Project's Publications
 weight: 2
-sidebar:
-  open: true
+
 toc: true
 build:
-  list: never
+  list: local
   render: always
 ---
 

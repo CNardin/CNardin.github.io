@@ -1,12 +1,12 @@
 ---
 title: Project's Infos
-weight: 1
-sidebar:
-  open: false
+weight: 2
+
 toc: true
 build:
-  list: never
+  list: local
   render: always
+
 ---
 
 ## Abstract

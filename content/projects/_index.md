@@ -11,6 +11,9 @@ cascade:
     params:
       show_breadcrumb: true
 
+build:
+  list: never
+  render: always
 # design:
 #   # Section spacing
 #   spacing: '5rem'
@@ -28,7 +31,7 @@ sections:
         exclude_featured: false
         kinds:
           - page      # This tells Hugo to look for individual project pages, not whole sections
-          #- section
+          - section
     design:
       view: article-grid
       fill_image: false
