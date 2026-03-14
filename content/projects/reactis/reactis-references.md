@@ -4,6 +4,9 @@ weight: 2
 sidebar:
   open: true
 toc: true
+_build:
+  list: never
+  render: always
 ---
 
 ## Journal Papers

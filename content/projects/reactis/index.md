@@ -16,7 +16,7 @@ Qui provo a scrivere -->
 
 {{< cards >}}
   {{< card url="project-infos" title="Project's Infos" icon="document-duplicate" >}}
-  {{< card url="../reactis/reactis-references" title="Related Publications" icon="document-duplicate" >}}
+  {{< card url="reactis-references" title="Related Publications" icon="document-duplicate" >}}
   {{< card url="configuration" title="Code Repository and Library" icon="adjustments-vertical" >}}
 {{< /cards >}}
 

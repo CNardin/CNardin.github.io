@@ -26,10 +26,17 @@ cascade:
       path: /slides/**
       kind: page
     outputs: [HTML, present]
+  - _target:
+      path: /projects/**
+      kind: page
+    type: docs
 
 ############################
 ## ADVANCED
 ############################
+params:
+  features:
+    search: false
 
 build:
   writeStats: true
