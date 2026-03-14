@@ -28,7 +28,7 @@ sections:
         exclude_featured: false
         kinds:
           - page      # This tells Hugo to look for individual project pages, not whole sections
-          - section
+          #- section
     design:
       view: article-grid
       fill_image: false
