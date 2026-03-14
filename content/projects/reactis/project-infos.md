@@ -4,7 +4,7 @@ weight: 1
 sidebar:
   open: false
 toc: true
-_build:
+build:
   list: never
   render: always
 ---
