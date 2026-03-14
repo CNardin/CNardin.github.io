@@ -89,6 +89,11 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-hugo-resources-
 
+    - name: Clear Hugo module cache
+      run: |
+        hugo mod clean --all || true
+        rm -rf /home/runner/.cache/hugo_cache || true
+
     - name: Build with Hugo
       env:
         HUGO_ENVIRONMENT: production
