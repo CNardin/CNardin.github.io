@@ -11,16 +11,16 @@ sections:
       spacing:
         padding: ['5rem', '0', '5rem', '0']
 
-  - block: markdown
-    content:
-      title: Active/past collaborations with people from
-      text: |
-        <div style="text-align:center;">
-          <img src="Active_Past_collaborations_with_people_from.png" style="width:250%; max-width:700px;">
-        </div>
-    design:
-      spacing:
-        padding: ['5rem', '0', '5rem', '0']
+  # - block: markdown
+  #   content:
+  #     title: Active/past collaborations with people from
+  #     text: |
+  #       <div style="text-align:center;">
+  #         <img src="Active_Past_collaborations_with_people_from.png" style="width:250%; max-width:700px;">
+  #       </div>
+  #   design:
+  #     spacing:
+  #       padding: ['5rem', '0', '5rem', '0']
 
   # - block: search-hero
   #   content:
