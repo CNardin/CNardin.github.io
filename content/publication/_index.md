@@ -37,8 +37,11 @@ sections:
               const yearMatch = text.match(/\b(20\d{2})\b/);
               if (yearMatch) p.dataset.year = yearMatch[1];
 
-              // Detect type from href - match publication folder structure
+              // DEBUG: log all links found
               const links = [...p.querySelectorAll("a")].map(a => a.getAttribute("href") || "");
+              console.log("Links in pub:", links);
+
+              // Detect type from href
               if (links.some(l => l.includes("/publication/articles/"))) {
                 p.dataset.type = "paper-article";
               } else if (links.some(l => l.includes("/publication/conferences/"))) {
@@ -48,8 +51,8 @@ sections:
               } else if (links.some(l => l.includes("/publication/news/"))) {
                 p.dataset.type = "news";
               }
+              console.log("Type assigned:", p.dataset.type);
             });
-
             // Build year dropdown
             const yearSelect = document.getElementById("yearFilter");
             const years = [...new Set(pubs.map(p => p.dataset.year))]

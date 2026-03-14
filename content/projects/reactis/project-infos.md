@@ -20,9 +20,6 @@ In particular, the recovery processes of the systems will be deepened and treate
 
 Finally, our research will encompass an in-depth analysis of seismic risk and adaptation strategies formulation. This effort aims to identify the criticalities and vulnerabilities within the industrial system networks.
 
-## Test
-![test](/projects/reactis/image.png)
-
 
 ## Funding Scheme
 Funded by the **European Union**. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or The European Research Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.
@@ -33,9 +30,8 @@ Funded by the **European Union**. Views and opinions expressed are however those
   <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Fig 1: Schema del sistema industriale REACTIS</p>
 </div>
 
-![Schema REACTIS](/projects/reactis/image.png)
+<!-- ![Schema REACTIS](/projects/reactis/image.png) -->
 
-{{< figure src="/projects/reactis/image.png" alt="Schema REACTIS" caption="Fig 1: Schema del sistema industriale REACTIS" >}}
 
 
 <!-- There are **4 main folders for Hugo-based sites**:
