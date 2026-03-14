@@ -5,7 +5,7 @@ date: 2025-01-01
 type: docs  # Using landing instead of docs to avoid the 'publication_types' panic
 # Summary for listing cards
 summary: "An open-source tool for automated data analysis."
-_build:
+build:
   list: always
   render: always
 tags: 
@@ -20,7 +20,7 @@ Qui provo a scrivere -->
 - [Project's Infos](/projects/reactis/project-infos/)
 - [Related Publications](/projects/reactis/reactis-references/)
 {{< cards >}}
-  {{< card url="project-infos" title="Project's Infos" icon="document-duplicate" >}}
+  {{< card url="/projects/reactis/project-infos/" title="Project's Infos" icon="document-duplicate" >}}
   {{< card url="reactis-references" title="Related Publications" icon="document-duplicate" >}}
   {{< card url="configuration" title="Code Repository and Library" icon="adjustments-vertical" >}}
 {{< /cards >}}
