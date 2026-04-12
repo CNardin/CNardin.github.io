@@ -125,32 +125,30 @@ hugoblox:
       share_alike: true
       allow_commercial: false
 
+  
   # ────────────────────────────────────────────────────────────────────────────
   # SEO
   # Search engine optimization - overrides and technical settings
   # ────────────────────────────────────────────────────────────────────────────
   seo:
-    # Browser tab title override (defaults to identity.name if not set)
-    title: ""
-    # For local_business identity type only
+    title: "Chiara Nardin | Structural Engineer & MSCA PostDoc"
     location:
       address:
         street: ""
         city: ""
-        region: ""
+        region: "Zurich"
         postal_code: ""
-        country: ""
+        country: "Switzerland"
       coordinates:
-        latitude: null
-        longitude: null
+        latitude: 
+        longitude: 
       phone: ""
-    # AI/LLM crawler guidance (llms.txt)
     ai:
       allow:
         - /
       disallow: []
-      note: "Guidance for AI crawlers - customize to match your public content."
-      contact: ""
+      note: "Chiara Nardin is an MSCA PostDoc Fellow at ETH Zurich and University of Trento, specializing in seismic risk assessment, uncertainty quantification, and structural engineering of industrial facilities."
+      contact: "chiara.nardin@unitn.it"
 
   # ────────────────────────────────────────────────────────────────────────────
   # CONTENT

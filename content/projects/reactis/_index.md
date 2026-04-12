@@ -22,14 +22,29 @@ sidebar:
 <!-- ## Ciao
 Qui provo a scrivere -->
 
+This is the landing page for the **REACTIS** project, which stands for **Seismic Risk Reduction and Adaptation for Complex Time-Dependent Industrial Systems**. Within the framework of the HORIZON [Marie Skłodowska-Curie Actions (MSCA) Postdoctoral Fellowships](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships) 2023, this project aims to develop innovative methodologies for <u>seismic risk reduction</u> and <u>adaptation strategies</u> for <u>complex network systems</u>, with a particular focus on industrial facilities. The project will address the challenges posed by <u>uncertainty quantification</u> in seismic hazard and vulnerabilities, as well as the <u>stochastic dynamics</u> of such systems under seismic events. By integrating advanced modeling techniques and data-driven approaches, REACTIS seeks to enhance our understanding of seismic risks and inform effective disaster risk reduction strategies for <u>critical infrastructure</u>.
 
-- [Project's Infos](/projects/reactis/project-infos/)
-- [Related Publications](/projects/reactis/reactis-references/)
-{{< cards >}}
-  {{< card url="/projects/reactis/project-infos/" title="Project's Infos" icon="document-duplicate" >}}
+**Keywords**: *complex network systems; uncertainty quantification; industrial facilities; stochastic dynamics; seismic risk;
+adaptation strategies; disaster risk reduction; seismic hazard and vulnerabilities*
+
+This project is hosted at the [Chair of Risk and Safety Engineering](https://sudret.ibk.ethz.ch/) at [ETH Zurich](https://www.ethz.ch/), led by Prof. [Bruno Sudret](https://sudret.ibk.ethz.ch/the-chair/people/prof-dr-bruno-sudret.html) and Dr. [Stefano Marelli](https://sudret.ibk.ethz.ch/the-chair/people/dr-stefano-marelli.html), and at the [HMSDC](https://researchcenter.unitn.it/en/nhmsdc) at University of Trento, led by Prof. [Marco Broccardo](https://www.marco-broccardo.com/) and [Oreste S. Bursi](https://oreste.bursi.dicam.unitn.it/).
+
+![Hosting institutions](partners.png)
+*Hosting institutions: ETH Zurich and University of Trento.*
+
+Here you can find more information about the project and the ongoing research activities:
+
+- {{< cards >}}
+  {{< card url="/projects/reactis/project-infos/" title="Project's Infos & Updates" icon="document-duplicate" >}}
+  {{< /cards >}}
+- {{< cards >}}
   {{< card url="reactis-references" title="Related Publications" icon="document-duplicate" >}}
-  {{< card url="configuration" title="Code Repository and Library" icon="adjustments-vertical" >}}
-{{< /cards >}}
+  {{< /cards >}}
+- {{< cards >}}
+  {{< card url="repository" title="Code Repository and Library" icon="adjustments-vertical" >}}
+  {{< /cards >}}
+
+:bulb: **Tip:** Remember to appreciate the little things in life.
 
 <!-- [ehi](../reactis/project-infos)
 [ciao](../reactis/reactis-references) -->
@@ -43,6 +58,8 @@ Qui provo a scrivere -->
         
         Adapting to the increasing threat of natural hazards is one of the most pressing current societal issues. Specifically, seismic risk reduction and adaptation of complex intertwined industrial facilities are keys for an effective EU green transition. [Rest of your text...]
 
+- [Project's Infos](/projects/reactis/project-infos/)
+- [Related Publications](/projects/reactis/reactis-references/)
 
 
     design:

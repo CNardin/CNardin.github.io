@@ -1,5 +1,5 @@
 ---
-title: Project's Publications
+title: Publications
 weight: 2
 
 toc: true

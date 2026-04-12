@@ -1,5 +1,6 @@
 ---
-title: Project's Infos
+title: Project's Infos & Updates
+description: This page provides detailed information about the REACTIS project, including its objectives, methodologies, and ongoing research activities. It serves as a comprehensive resource for understanding the project's scope and progress.
 weight: 2
 
 toc: true
@@ -25,10 +26,15 @@ Finally, our research will encompass an in-depth analysis of seismic risk and ad
 Funded by the **European Union**. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or The European Research Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.
 **GA n°101147351** “*Seismic Risk Reduction and Adaptation for Complex Timedependent Industrial Systems REACTIS*”.
 
-<div class="text-center" style="margin: 20px 0;">
-  <img src="/projects/reactis/image.png" alt="Schema REACTIS" style="max-width: 100%; border-radius: 8px; border: 1px solid #000;">
-  <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Fig 1: Schema del sistema industriale REACTIS</p>
+![EU scheme](/projects/reactis/image.png)
+*EU funding scheme.*
+
+<!--
+<div class="text-left" style="margin: 0px 0px;">
+  <img src="/projects/reactis/image.png" alt="Funding scheme" style="max-width: 100%; border-radius: 8px; border: 1px solid #000;">
+  <p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">Fig 1: EU funding scheme.</p>
 </div>
+-->
 
 <!-- ![Schema REACTIS](/projects/reactis/image.png) -->
 
