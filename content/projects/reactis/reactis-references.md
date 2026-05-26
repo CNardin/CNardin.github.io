@@ -1,5 +1,6 @@
 ---
 title: Publications
+date: 2025-01-01
 weight: 2
 
 toc: true

@@ -1,6 +1,7 @@
 ---
 title: News and Talks
 description: This page provides access to the latest news and talks related to the MAERS project.
+date: 2024-01-01
 weight: 4
 
 toc: true
