@@ -18,6 +18,8 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  packages: read
+
 
 # Prevent duplicate upgrade runs
 concurrency:
