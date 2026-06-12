@@ -18,6 +18,15 @@ build:
     icon="academic-cap" >}}
 {{< /cards >}}
 
+## Preprints
+
+{{< cards >}}
+  {{< card 
+    url="https://arxiv.org/abs/2606.12448" 
+    title="P1. A generalized framework for performance-based earthquake engineering: integrated assessment of structural reliability and resilience" 
+    icon="academic-cap" >}}
+{{< /cards >}}
+
 
 ## Conference Papers
 
@@ -40,3 +49,4 @@ build:
 | T3 | [WCCM ECCOMAS 2026 — World Congress on Computational Mechanics](https://www.wccm2026.org/) | München, Germany | Jul 2026 | 🔜 upcoming |
 | T4 | [CSM 2026 — Computational Structural Mechanics](https://csm2026.org/) | Corfu, Greece | Jul 2026 | 🔜 upcoming |
 | T5 | [REC 2026 — Reliability Engineering and Computation](https://rec2026.org/) | Dortmund, Germany | Sep 2026 | 🔜 upcoming |
+| T6 | [WiDS Zurich 2026 — Women in Data Science](/publication/news/2026-wids-reactis/) | Rüschlikon, Switzerland | Jun 2026 | 🔜 upcoming — poster & pitch |
