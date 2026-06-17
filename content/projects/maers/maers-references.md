@@ -23,6 +23,7 @@ build:
 
 {{< cards >}}
   {{< card url="/publication/conferences/2025-ANIDIS-maers" title="C1. Adaptive regional seismic risk assessment under uncertainty: a case study in the Alto Garda area" icon="academic-cap" >}}
+  {{< card title="C2. Risk analysis of Alto Garda via microzonation and structural characterisation of buildings mapping — WCEE2024, Milan, Italy" icon="academic-cap" >}}
 {{< /cards >}}
 
 ## Posters

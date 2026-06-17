@@ -2,6 +2,7 @@
 linkTitle: MAERS
 title: MAERS
 date: 2024-01-01
+lastmod: 2026-06-17
 type: docs  # Using landing instead of docs to avoid the 'publication_types' panic
 # Summary for listing cards
 summary: "MAERS (Maps of seismic risk and exposure at regional scale) is a project focused on developing integrated seismic risk and exposure maps at a regional scale. The project aims to provide comprehensive and detailed information about seismic hazards, vulnerabilities, and risks in specific regions, helping to inform disaster risk reduction strategies and enhance resilience against seismic events."
@@ -41,7 +42,7 @@ Here you can find more information about the project and the ongoing research ac
   {{< card url="maers-references" title="Related Publications" icon="document-duplicate" >}}
   {{< /cards >}}
 - {{< cards >}}
-  {{< card url="news-talks" title="News and Talks" icon="adjustments-vertical" >}}
+  {{< card url="news" title="News and Talks" icon="adjustments-vertical" >}}
   {{< /cards >}}
 
 and meet the team:
