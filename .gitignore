@@ -11,6 +11,8 @@ static/uploads/phd_unitn_chiara_nardin.pdf
 
 .devcontainer/*
 .claude/*
+.claude/settings.local.json
+.devcontainer/devcontainer.json
 # ============================================================================
 # Hugo Build Artifacts
 # ============================================================================
