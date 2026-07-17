@@ -18,9 +18,15 @@ build:
 | T1 | WCEE2024 — 18th World Conference on Earthquake Engineering | Milan, Italy | Jun 30–Jul 5, 2024 | ✅ presented |
 | T2 | Internal seminar — PAT | Trento, Italy | — | ✅ presented |
 | T3 | [ANIDIS 2025 — XIX Convegno Nazionale di Ingegneria Sismica in Italia](/publication/conferences/2025-ANIDIS-maers) | Assisi, Italy | Sep 2025 | ✅ paper |
-| T4 | GEM 2026 | — | 2026 | 🔜 upcoming — poster |
+| T4 | [GEM 2026](/projects/maers/Poster_GEM.pdf) | — | 2026 | 🔜 upcoming — [poster](/projects/maers/Poster_GEM.pdf) |
 
 ## Outreach Activities
+
+### Organizing the 50th anniversary of the Riva del Garda earthquake (2026)
+
+The MAERS team is organizing the commemoration of the 50th anniversary of the Santa Lucia earthquake that struck Riva del Garda and the Alto Garda area in 1976. More details to follow soon!
+
+---
 
 ### Notte dei Ricercatori 2025
 

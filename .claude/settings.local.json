@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(pnpm dev *)",
-      "WebFetch(domain:link.springer.com)",
-      "WebFetch(domain:papers.ssrn.com)"
-    ]
-  }
-}
