@@ -46,7 +46,7 @@ build:
 | :- | :---- | :------- | :--- | :----- |
 | T1 | [ICOSSAR 2025 — 14th International Conference on Structural Safety and Reliability](https://www.icossar2025.org/) | Los Angeles, USA | Jun 2025 | ✅ presented |
 | T2 | [ANIDIS 2025 — XIX Convegno Nazionale di Ingegneria Sismica in Italia](https://www.anidis.it/) | Assisi, Italy | Sep 2025 | ✅ presented |
-| T3 | [WCCM ECCOMAS 2026 — World Congress on Computational Mechanics](https://www.wccm2026.org/) | München, Germany | Jul 2026 | 🔜 upcoming |
+| T3 | [WCCM ECCOMAS 2026 — World Congress on Computational Mechanics](/publication/news/2026-wccm-reactis/) | München, Germany | Jul 2026 | ✅ presented |
 | T4 | [CSM 2026 — Computational Structural Mechanics](https://csm2026.org/) | Corfu, Greece | Jul 2026 | 🔜 upcoming |
 | T5 | [REC 2026 — Reliability Engineering and Computation](https://rec2026.org/) | Dortmund, Germany | Sep 2026 | 🔜 upcoming |
 | T6 | [WiDS Zurich 2026 — Women in Data Science](/publication/news/2026-wids-reactis/) | Rüschlikon, Switzerland | Jun 2026 | 🔜 upcoming — poster & pitch |
