@@ -1,0 +1,94 @@
+# Italian overrides for data/authors/chiara-nardin.yaml (top-level keys replace the English ones).
+role: Ricercatrice postdoc MSCA all'ETH di Zurigo (Svizzera) e all'Università di Trento (Italia)
+bio: |
+  Ingegnera strutturista e borsista MSCA: mi occupo di rischio sismico, modellazione della fragilità e quantificazione dell'incertezza per sistemi industriali complessi, all'ETH di Zurigo e all'Università di Trento.
+
+interests:
+  - Quantificazione dell'incertezza
+  - Ingegneria strutturale
+  - Valutazione del rischio sismico
+  - Analisi di affidabilità
+
+education:
+  - degree: Dottorato di ricerca in Ingegneria Strutturale
+    institution: Università di Trento
+    start: 2019-11-01
+    end: 2022-12-22
+    summary: |
+      Sviluppo di un framework computazionale per la valutazione della fragilità sismica di componenti non strutturali industriali, basato su prove sperimentali, modelli FE e quantificazione dell'incertezza tramite metamodelli.
+    button:
+      text: Scarica la tesi
+      url: /phd_unitn_chiara_nardin_red.pdf
+      icon: hero/arrow-down-tray
+  - degree: Laurea Magistrale in Ingegneria Civile (Strutture)
+    institution: Università di Trento
+    start: 2016-09-01
+    end: 2019-03-29
+  - degree: Laurea in Ingegneria Civile
+    institution: Università di Trento
+    start: 2013-09-01
+    end: 2016-09-22
+
+experience:
+  - role: Ricercatrice postdoc MSCA all'ETH di Zurigo e all'Università di Trento
+    org: EU MSCA
+    start: 2025-01-01
+    summary: |
+      REACTIS: riduzione del rischio sismico e strategie di adattamento per sistemi industriali complessi dipendenti dal tempo
+    button:
+      text: Vai al progetto
+      url: /reactis
+      icon: hero/arrow-down-tray
+  - role: Assegnista di ricerca all'Università di Trento
+    org: Università di Trento
+    start: 2024-01-01
+    end: 2024-12-31
+    summary: |
+      PREVENT: sviluppo di modelli predittivi innovativi per la sismicità indotta basati su machine learning informato dalla fisica.
+  - role: Assegnista di ricerca all'Università di Trento
+    org: Università di Trento
+    start: 2023-01-01
+    end: 2023-12-31
+    summary: |
+      SPOKE#9: sviluppo di matrici di transizione markoviane per sistemi accoppiati struttura industriale-componenti di processo soggetti a sequenze sismiche.
+
+skills:
+  - name: Competenze tecniche
+    items:
+      - label: MatLab
+        level: 4
+      - label: Python
+        level: 3
+      - label: Machine Learning
+        level: 3
+  - name: Ricerca e comunicazione
+    items:
+      - label: Scrittura scientifica
+        level: 5
+      - label: Presentazioni a conferenze
+        level: 4
+      - label: Proposte di progetto
+        level: 4
+
+languages:
+  - name: Italiano
+    level: 5
+    label: Madrelingua
+  - name: Inglese
+    level: 5
+    label: Fluente
+  - name: Tedesco
+    level: 2
+    label: Base
+
+awards:
+  - title: ReLUIS – Premio di ricerca "20 anni di ReLUIS", Roma
+    awarder: ReLUIS
+    date: "2023-11-08"
+    summary: Premio per iniziative di ricerca creative e di eccellenza nel campo dell'ingegneria sismica e strutturale.
+    icon: hero/trophy
+  - title: APESS – Asia Pacific Euro Summer School on Smart Structures Technology, Roma
+    awarder: APESS, Università La Sapienza
+    date: "2019-04-08"
+    summary: Competizione sulla progettazione di un sistema di monitoraggio strutturale (SHM) e sullo sviluppo e la verifica di tecniche OMA per strutture in acciaio e passerelle pedonali.
+    icon: hero/trophy

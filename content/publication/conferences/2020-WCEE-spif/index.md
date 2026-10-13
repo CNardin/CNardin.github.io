@@ -1,7 +1,7 @@
 ---
 title: "Seismic performance of multiple-component systems in special risk industrial facilities"
 
-authors: ["C. Butenweg", "M. Marinkovic", "A. Pavese", "I. Lanese", "E. Rizzo Parisi", "B. Hoffmeister", "M.Pinkawa", "C. Vulcu", "Oreste S. Bursi", "Chiara Nardin", "F. Paolacci", "G. Quinci", "M. Fragiadakis", "F. Weber", "P. Huber", "P. Renault", "M. Gündel", "S. Dyke", "M. Ciucci", "A. Marino"]
+authors: ["christoph-butenweg", "marko-marinkovic", "alberto-pavese", "igor-lanese", "E. Rizzo Parisi", "B. Hoffmeister", "M. Pinkawa", "C. Vulcu", "oreste-bursi", "chiara-nardin", "fabrizio-paolacci", "gianluca-quinci", "M. Fragiadakis", "F. Weber", "P. Huber", "P. Renault", "M. Gündel", "S. Dyke", "mariano-ciucci", "alessandra-marino"]
 show_author_list: false
 date: "2020-09-18T00:00:00Z"
 
@@ -14,8 +14,8 @@ publishDate: "2020-09-18T00:00:00Z"
 publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "17th World Conference Earthquake Engineering"
-publication_short: "17WCEE"
+publication: "*Proceedings of the 17th World Conference on Earthquake Engineering (17WCEE)*, Sendai, Japan, Paper No. C001911"
+publication_short: ""
 
 # replace abstract content with short summary
 abstract: |

@@ -1,22 +1,71 @@
 # Languages
-#   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
+#
+# English is the default language (served at /). Italian and German are served at /it/ and /de/.
+# Translations live in `content_it/` and `content_de/` with the same paths as in `content/`.
+# Pages without a translation fall back to the English version (see the content mounts in module.yaml).
+#
+# NEVER translate the demo sections blog/, courses/, events/ and slides/ (not published).
 
-# Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  languageName: English
+  weight: 1
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+it:
+  languageCode: it-it
+  languageName: Italiano
+  weight: 2
+  params:
+    hugoblox:
+      footer:
+        text: "Ultima modifica 13.10.2026"
+  menus:
+    main:
+      - name: Bio
+        url: /
+        weight: 10
+      - name: Pubblicazioni
+        url: publication/
+        weight: 11
+      - name: Progetti
+        url: projects/
+        weight: 20
+      - name: News
+        url: news/
+        weight: 25
+      - name: Esperienza
+        url: experience/
+        weight: 30
+      - name: Contatti
+        url: contact/
+        weight: 50
+
+de:
+  languageCode: de-de
+  languageName: Deutsch
+  weight: 3
+  params:
+    hugoblox:
+      footer:
+        text: "Zuletzt bearbeitet 13.10.2026"
+  menus:
+    main:
+      - name: Bio
+        url: /
+        weight: 10
+      - name: Publikationen
+        url: publication/
+        weight: 11
+      - name: Projekte
+        url: projects/
+        weight: 20
+      - name: News
+        url: news/
+        weight: 25
+      - name: Erfahrung
+        url: experience/
+        weight: 30
+      - name: Kontakt
+        url: contact/
+        weight: 50

@@ -1,0 +1,16 @@
+schema: hugoblox/author/v1
+slug: marko-marinkovic
+is_owner: false
+name:
+  display: "Marko Marinković"
+  given: "Marko"
+  family: "Marinković"
+role: "Associate Professor at University of Belgrade (Serbia)"
+affiliations:
+  - name: "University of Belgrade - Faculty of Civil Engineering"
+    url: https://www.grf.bg.ac.rs/
+website: https://web1.grf.bg.ac.rs/fakultet/pro/e?nid=159
+links:
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0001-6642-8403
+    label: ORCID

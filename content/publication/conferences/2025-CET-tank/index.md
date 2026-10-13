@@ -1,6 +1,6 @@
 ---
 title: "Fragility models for industrial equipment subjected to natural hazards"
-authors: ["Oreste S. Bursi", "Hafiz Liaqat Ali", "Chiara Nardin", "Marco Broccardo", "Gianluca Quinci","Fabrizio Paolacci", "Luca Caracoglia"]
+authors: ["oreste-bursi", "H. L. Ali", "chiara-nardin", "marco-broccardo", "gianluca-quinci", "fabrizio-paolacci", "L. Caracoglia"]
 show_author_list: false
 date: "2025-05-15T00:00:00Z"
 
@@ -13,8 +13,8 @@ publishDate: "2025-05-15T00:00:00Z"
 publication_types: ["paper-article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Fragility models for industrial equipment subjected to natural hazards"
-publication_short: "CET"
+publication: "*Chemical Engineering Transactions*, 116, 517–522"
+publication_short: ""
 
 # replace abstract content with short summary
 abstract: |

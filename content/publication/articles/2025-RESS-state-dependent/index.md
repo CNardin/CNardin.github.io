@@ -1,6 +1,6 @@
 ---
 title: "UQ state-dependent framework for seismic fragility assessment of industrial components"
-authors: ["Chiara Nardin", "Stefano Marelli", "Oreste S. Bursi", "Bruno Sudret", "Marco Broccardo"]
+authors: ["chiara-nardin", "stefano-marelli", "oreste-bursi", "bruno-sudret", "marco-broccardo"]
 show_author_list: false
 #author_notes:
 #- "Equal contribution"
@@ -18,7 +18,7 @@ publishDate: "2025-09-01T00:01:00Z"
 publication_types: ["paper-article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Reliability Engineering & System Safety*, Vol.(261)"
+publication: "*Reliability Engineering & System Safety*, 261, 111067"
 publication_short: ""
 
 #abstract: Recently, there has been increased interest in assessing the seismic fragility of industrial plants and process equipment. This is reflected in the growing number of studies, community-funded research projects and experimental campaigns on the matter. Nonetheless, the complexity of the problem and its inherent modelling, coupled with a general scarcity of available data on process equipment, has limited the development of risk assessment methods. In fact, these limitations have led to the creation of simplified and quick-to-run models. In this context, we propose an innovative framework for developing state-dependent fragility functions. This new methodology combines limited data with the power of metamodelling and statistical techniques, namely polynomial chaos expansions (PCE) and bootstrapping. Therefore, we validated the framework on a simplified and computationally efficient MDoF system endowed with Bouc–Wen hysteresis. Then, we tested it on a real nonstructural industrial process component. Specifically, we applied the state-dependent fragility framework to a critical vertical tank of a multicomponent full-scale 3D steel braced frame (BF). The seismic performance of the BF endowed with process components was captured by means of shake table campaign within the European SPIF project. Finally, we derived state-dependent fragility functions based on the combination of PCE and bootstrap at a greatly reduced computational cost.

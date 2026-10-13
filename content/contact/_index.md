@@ -17,6 +17,9 @@ sections:
     content:
       title: Let's Connect
       username: chiara-nardin
+      text: |-
+        If you are interested in my work or have any questions feel free to reach out to me.
+        Bei Interesse an meiner Arbeit oder bei Fragen kontaktieren Sie mich gerne!
     design:
       spacing:
         padding: ['10px', '10px', '10px', '10px']

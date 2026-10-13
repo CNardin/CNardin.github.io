@@ -1,0 +1,16 @@
+schema: hugoblox/author/v1
+slug: christoph-butenweg
+is_owner: false
+name:
+  display: "Christoph Butenweg"
+  given: "Christoph"
+  family: "Butenweg"
+role: "Professor at FH Aachen University of Applied Sciences (Germany)"
+affiliations:
+  - name: "FH Aachen & RWTH Aachen - Center for Wind and Earthquake Engineering (CWE)"
+    url: https://www.cwe.rwth-aachen.de/
+website: https://www.fh-aachen.de/menschen/christophbutenweg
+links:
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-1478-6476
+    label: ORCID

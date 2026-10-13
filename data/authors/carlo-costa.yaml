@@ -1,0 +1,12 @@
+schema: hugoblox/author/v1
+slug: carlo-costa
+is_owner: false
+name:
+  display: "Carlo Costa"
+  given: "Carlo"
+  family: "Costa"
+role: "General Technical Director at Autostrada del Brennero SpA (Italy)"
+affiliations:
+  - name: "Autostrada del Brennero SpA, Trento"
+    url: https://www.autobrennero.it/
+website: https://www.rebuilditalia.it/en/speaker/detail/carlo-costa

@@ -1,18 +1,11 @@
 ---
 title: "WiDS Zurich 2026 — Poster & Pitch: A Generalized Framework for Performance-Based Earthquake Engineering"
 authors: ["Chiara Nardin"]
-show_author_list: false
+aliases:
+  - /publication/news/2026-wids-reactis/
 date: "2026-06-12T00:00:00Z"
 
 publishDate: "2026-06-12T00:00:00Z"
-
-publication_types: ["news"]
-
-publication: "Women in Data Science (WiDS) Zurich 2026"
-publication_short: "WiDS 2026"
-
-abstract: |
-    Poster and pitch presentation of a generalized framework for performance-based earthquake engineering integrating structural reliability and seismic resilience. The methodology embeds damage and recovery processes within continuous-time Markov chains, delivering a unified description of structural reliability and resilience while remaining compatible with existing industry metrics.
 
 summary: Poster and pitch at WiDS Zurich 2026 on a generalized PBEE framework integrating structural reliability and seismic resilience via continuous-time Markov chains.
 
@@ -31,9 +24,8 @@ links:
     url: https://www.wids.ch/main-conference
   - type: pdf
     url: https://arxiv.org/pdf/2606.12448
-# --- ATTIVARE IL 20 GIUGNO: rimuovere il # dalle due righe sotto e caricare il file PDF ---
-#- type: poster
-#  url: /papers/2026-WiDS-reactis-poster.pdf
+  - type: poster
+    url: /papers/2026-WiDS-reactis-poster.pdf
 
 image:
   filename: wids-logo.jpg
@@ -42,7 +34,6 @@ image:
   preview_only: false
 
 projects: ["reactis"]
-slides: ""
 ---
 
 > [!Info]+ WiDS Zurich 2026
@@ -59,12 +50,4 @@ C. Nardin, S. Marelli, B. Sudret, M. Broccardo —
 
 ## Poster
 
-<!-- ============================================================
-     ATTIVARE IL 20 GIUGNO:
-     1. Carica il file PDF in static/papers/2026-WiDS-reactis-poster.pdf
-     2. Rimuovi il commento HTML qui sotto (cancella le righe con <!-- e )
-     3. Rimuovi il # dalle righe "poster" nel frontmatter in cima al file
-     [📌 Download Poster](https://arxiv.org/pdf/2606.12448)
-     ============================================================ -->
-
-*Poster disponibile dal 20 giugno 2026.*
+[📌 Download Poster](/papers/2026-WiDS-reactis-poster.pdf)

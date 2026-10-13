@@ -1,0 +1,16 @@
+schema: hugoblox/author/v1
+slug: federica-zonzini
+is_owner: false
+name:
+  display: "Federica Zonzini"
+  given: "Federica"
+  family: "Zonzini"
+role: "Tenure-track Researcher at University of Bologna (Italy)"
+affiliations:
+  - name: "University of Bologna - Department of Electrical, Electronic and Information Engineering (DEI)"
+    url: https://dei.unibo.it/en
+website: https://www.unibo.it/sitoweb/federica.zonzini/en
+links:
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-2429-1469
+    label: ORCID

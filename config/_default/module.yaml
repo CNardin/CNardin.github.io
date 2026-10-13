@@ -20,6 +20,23 @@ mounts:
   - source: hugo-blox/blox
     target: assets/dist/community/blox/
     includeFiles: '**.css'
+  # Content per language: translated files in content_it/ and content_de/ come first (the first mount wins
+  # when the same path exists twice); English content is then shared with all languages as fallback.
+  - source: content_it
+    target: content
+    sites:
+      matrix:
+        languages: ["it"]
+  - source: content_de
+    target: content
+    sites:
+      matrix:
+        languages: ["de"]
+  - source: content
+    target: content
+    sites:
+      matrix:
+        languages: ["**"]
   - source: layouts
     target: layouts
   - source: assets

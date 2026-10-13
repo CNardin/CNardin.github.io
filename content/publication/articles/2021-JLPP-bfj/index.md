@@ -1,6 +1,6 @@
 ---
 title: "Bolted flange joints equipped with FBG sensors in industrial piping systems subjected to seismic loads"
-authors: ["Fabrizio Paolacci","Gianluca Quinci", "Chiara Nardin", "Valerio Vezzari", "Alessandra Marino", "Mariano Ciucci"]
+authors: ["fabrizio-paolacci", "gianluca-quinci", "chiara-nardin", "valerio-vezzari", "alessandra-marino", "mariano-ciucci"]
 show_author_list: false
 date: "2021-06-26T00:00:00Z"
 
@@ -13,8 +13,8 @@ publishDate: "2021-06-26T00:00:00Z"
 publication_types: ["paper-article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Elsevier - Journal of Loss Prevention in the Process Industries"
-publication_short: "JLPPI"
+publication: "*Journal of Loss Prevention in the Process Industries*, 72, 104576"
+publication_short: ""
 
 abstract: This paper addresses the vulnerability of industrial plants to natural hazards (NaTech) by evaluating Optical Fiber Bragg Gratings (FBGs) for monitoring bolted flange joints (BFJ) under seismic loading. Experimental tests show that FBG sensors are effective at detecting structural hazards, making them a viable, economical tool for real-time safety monitoring and activation of safety barriers in dangerous environments. 
 

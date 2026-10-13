@@ -1,0 +1,16 @@
+schema: hugoblox/author/v1
+slug: tugberk-guner
+is_owner: false
+name:
+  display: "Tugberk Guner"
+  given: "Tugberk"
+  family: "Guner"
+role: "Research Associate at University of Trento (Italy)"
+affiliations:
+  - name: "UniTn - Department of Civil, Environmental and Mechanical Engineering"
+    url: https://www.dicam.unitn.it/en
+website: https://orcid.org/0000-0001-8269-9537
+links:
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0001-8269-9537
+    label: ORCID

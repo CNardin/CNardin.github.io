@@ -1,0 +1,87 @@
+---
+title: "Seismic experimental analyses and surrogate models of multi-component systems in special-risk industrial facilities"
+authors: ["chiara-nardin"]
+show_author_list: false
+date: "2022-12-22T00:00:00Z"
+
+# Schedule page publish date (NOT publication's date).
+publishDate: "2022-12-22T00:00:00Z"
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["thesis"]
+
+# Publication name and optional abbreviated publication name.
+publication: "Doctoral thesis (Doctor Europaeus), University of Trento"
+publication_short: ""
+
+abstract: "Nowadays, earthquakes are one of the most catastrophic natural events that have a significant human, socio-economic and environmental impact. Besides, based on both observations of damage following recent major/moderate seismic events and numerical/experimental studies, it clearly emerges that critical non-structural components (NSCs) that are ubiquitous to most industrial facilities are particularly and even disproportionately vulnerable to those events. Nonetheless and despite their great importance, seismic provisions for industrial facilities and their process equipment are still based on the classical load-and-resistance factor design (LRFD) approach; a performance-based earthquake engineering (PBEE) approach should, instead, be preferred. Along this vein, in recent years, much research has been devoted to setting computational fragility frameworks for special-risk industrial components and structures. However, within a PBEE perspective, studies have clearly remarked: i) a lack of definition of performance objectives for NSCs; ii) the need for fully comprehensive testing campaigns data on coupling effects between main structures and NSCs. In this respect, this doctorate thesis introduces a computational framework for an efficient and accurate seismic state-dependent fragility analysis; it is based on a combination of data acquired from an extensive experimental shake table test campaign on a full-scale prototype industrial steel frame structure and the most recent surrogate-based UQ forward analysis advancements. Specifically, the framework is applied to a real-world application consisting of seismic shake table tests of a representative industrial multistorey frame structure equipped with complex process components, carried out at the EUCENTRE facility in Italy, within the European SPIF project: Seismic Performance of Multi-Component Systems in Special Risk Industrial Facilities. The results of this experimental research campaign also aspire to improve the understanding of these complex systems and improve the knowledge of FE modelling techniques. The main goals aim to reduce the huge computational burden and to assess, as well, when the importance of coupling effects between NSCs and the main structure comes into play. Insights provided by innovative monitoring systems were then deployed to develop and validate numerical and analytical models. At the same time, the adoption of Der Kiureghian's stochastic site-based ground motion model (GMM) was deemed necessary to severely excite the process equipment and supplement the scarcity of real records with a specific frequency content capable of enhancing coupling effects. Finally, to assess the seismic risk of NSCs of those special facilities, this thesis introduces state-dependent fragility curves that consider the accumulation of damage effects due to sequential seismic events. To this end, the computational burden was alleviated by adopting polynomial chaos expansion (PCE) surrogate models. More precisely, the dimensionality of a seismic input random vector has been reduced by performing the principal component analysis (PCA) on the experimental realizations. Successively, by bootstrapping on the experimental design, separate PCE coefficients have been determined, yielding a full response sample at each point. Eventually, empirical state-dependent fragility curves were derived."
+
+# Summary. An optional shortened abstract.
+summary: "Doctoral thesis (Doctor Europaeus, University of Trento): a computational framework for seismic state-dependent fragility analysis of industrial non-structural components, combining full-scale SPIF shake table data with PCE/PCA surrogate-based UQ."
+
+tags:
+- spif
+- state-dependent fragility curves
+- industrial multi-component systems
+- PBEE
+- shake table tests
+- surrogate modelling
+- UQ forward analyses
+
+featured: false
+
+links:
+  - type: pdf
+    url: /papers/2022-PhD-thesis.pdf
+  - type: publisher
+    url: https://hdl.handle.net/11572/362462
+  - type: project
+    url: /projects/spif/
+#- type: slides
+#  url: https://www.slideshare.net/
+#- type: dataset
+#  url: "#"
+#- type: poster
+#  url: "#"
+#- type: source
+#  url: "#"
+#- type: video
+#  url: https://youtube.com
+#- type: custom
+#  label: Custom Link
+#  url: http://example.org
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+image:
+  filename: featured.png
+  caption: "Cover of the doctoral thesis"
+  focal_point: ""
+  preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+projects: ["spif"]
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+slides: ""
+---
+
+> [!ABSTRACT]
+> Nowadays, earthquakes are one of the most catastrophic natural events that have a significant human, socio-economic and environmental impact. Besides, based on both observations of damage following recent major/moderate seismic events and numerical/experimental studies, it clearly emerges that critical non-structural components (NSCs) that are ubiquitous to most industrial facilities are particularly and even disproportionately vulnerable to those events. Nonetheless and despite their great importance, seismic provisions for industrial facilities and their process equipment are still based on the classical load-and-resistance factor design (LRFD) approach; a performance-based earthquake engineering (PBEE) approach should, instead, be preferred. Along this vein, in recent years, much research has been devoted to setting computational fragility frameworks for special-risk industrial components and structures. However, within a PBEE perspective, studies have clearly remarked: i) a lack of definition of performance objectives for NSCs; ii) the need for fully comprehensive testing campaigns data on coupling effects between main structures and NSCs. In this respect, this doctorate thesis introduces a computational framework for an efficient and accurate seismic state-dependent fragility analysis; it is based on a combination of data acquired from an extensive experimental shake table test campaign on a full-scale prototype industrial steel frame structure and the most recent surrogate-based UQ forward analysis advancements. Specifically, the framework is applied to a real-world application consisting of seismic shake table tests of a representative industrial multistorey frame structure equipped with complex process components, carried out at the EUCENTRE facility in Italy, within the European SPIF project: Seismic Performance of Multi-Component Systems in Special Risk Industrial Facilities. The results of this experimental research campaign also aspire to improve the understanding of these complex systems and improve the knowledge of FE modelling techniques. The main goals aim to reduce the huge computational burden and to assess, as well, when the importance of coupling effects between NSCs and the main structure comes into play. Insights provided by innovative monitoring systems were then deployed to develop and validate numerical and analytical models. At the same time, the adoption of Der Kiureghian's stochastic site-based ground motion model (GMM) was deemed necessary to severely excite the process equipment and supplement the scarcity of real records with a specific frequency content capable of enhancing coupling effects. Finally, to assess the seismic risk of NSCs of those special facilities, this thesis introduces state-dependent fragility curves that consider the accumulation of damage effects due to sequential seismic events. To this end, the computational burden was alleviated by adopting polynomial chaos expansion (PCE) surrogate models. More precisely, the dimensionality of a seismic input random vector has been reduced by performing the principal component analysis (PCA) on the experimental realizations. Successively, by bootstrapping on the experimental design, separate PCE coefficients have been determined, yielding a full response sample at each point. Eventually, empirical state-dependent fragility curves were derived.
+
+> [!TIP]
+> Click the *Cite* button above to copy *.bib* publication metadata into your notes.
+> or directly download here either the bibtex version:
+> <a href="/papers/2022-PhD-thesis.bib" target="_blank">Download BibTeX</a>
+> or the plain text one:
+> <a href="/papers/2022-PhD-thesis.txt" target="_blank">Download Plain.txt</a>

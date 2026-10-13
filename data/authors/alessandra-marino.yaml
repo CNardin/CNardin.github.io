@@ -1,0 +1,16 @@
+schema: hugoblox/author/v1
+slug: alessandra-marino
+is_owner: false
+name:
+  display: "Alessandra Marino"
+  given: "Alessandra"
+  family: "Marino"
+role: "Senior Researcher at INAIL (Italy)"
+affiliations:
+  - name: "INAIL - Department of Technological Innovations, Rome"
+    url: https://www.inail.it/
+website: https://orcid.org/0009-0006-8949-0895
+links:
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0006-8949-0895
+    label: ORCID

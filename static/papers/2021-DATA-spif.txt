@@ -1,0 +1,6 @@
+C. Butenweg, I. Lanese, M. Marinković, C. Nardin, F. Paolacci, G. Quinci, O. S. Bursi, et al.,
+SPIF Processed Dataset,
+SPIF project - H2020 SERA Transnational Access, EUCENTRE, Pavia,
+2021.
+(https://sera-ta.eucentre.it/shake-table-tests-of-a-special-risk-industrial-facility-at-eucentre-laboratories/)
+Abstract: Processed experimental dataset of the SPIF project (Seismic Performance of Multi-Component Systems in Special Risk Industrial Facilities), carried out within the European H2020 SERA Transnational Access programme at the EUCENTRE laboratories in Pavia, Italy. The dataset collects the processed measurements of the shake table test campaign on a full-scale, three-storey industrial steel frame structure, tested in moment resisting frame and braced frame configurations, equipped with vertical and horizontal tanks, a cabinet and piping networks with bolted flange joints. It includes input ground motions and the acceleration, displacement and strain responses of both the primary structure and the non-structural process components.

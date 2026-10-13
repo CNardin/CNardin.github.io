@@ -110,7 +110,7 @@ hugoblox:
     style: minimal                      # minimal | columns | centered
     language_switcher: true
     # Custom footer text (HTML supported)
-    text: "Last edit 08.03.2026"
+    text: "Last edit 13.10.2026"
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT

@@ -1,0 +1,15 @@
+schema: hugoblox/author/v1
+slug: silvano-erlicher
+is_owner: false
+name:
+  display: "Silvano Erlicher"
+  given: "Silvano"
+  family: "Erlicher"
+affiliations:
+  - name: "EGIS, Montreuil (France)"
+    url: https://www.egis-group.com/
+website: https://orcid.org/0000-0001-6694-1741
+links:
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0001-6694-1741
+    label: ORCID

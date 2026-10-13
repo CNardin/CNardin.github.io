@@ -1,0 +1,16 @@
+schema: hugoblox/author/v1
+slug: fabrizio-paolacci
+is_owner: false
+name:
+  display: "Fabrizio Paolacci"
+  given: "Fabrizio"
+  family: "Paolacci"
+role: "Full Professor at Roma Tre University (Italy)"
+affiliations:
+  - name: "Roma Tre University - Department of Civil, Computer Science and Aeronautical Technologies Engineering"
+    url: https://ingegneriacivileinformaticatecnologieaeronautiche.uniroma3.it/
+website: https://www.romatrestrutture.eu/people/fabrizio-paolacci/
+links:
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0003-2724-4809
+    label: ORCID

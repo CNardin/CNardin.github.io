@@ -1,7 +1,7 @@
 ---
 title: "Ground motion model for seismic vulnerability assessment of prototype industrial plants"
 
-authors: ["Chiara Nardin", "Rocco di Filippo", "Roberto Endrizzi", "Igor Lanese", "Fabrizio Paolacci", "Oreste S. Bursi"]
+authors: ["chiara-nardin", "R. di Filippo", "R. Endrizzi", "igor-lanese", "fabrizio-paolacci", "oreste-bursi"]
 show_author_list: false
 date: "2020-07-19T00:00:00Z"
 
@@ -14,9 +14,9 @@ publishDate: "2020-07-19T00:00:00Z"
 publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Proceedings of the ASME 2020 Pressure Vessels and Piping Conference, PVP2020"
+publication: "*Proceedings of the ASME 2020 Pressure Vessels & Piping Conference (PVP2020)*, Vol. 9, V009T09A017"
 #July 19-24, 2020, Minneapolis, Minnesota, USA"
-publication_short: "PVP2020"
+publication_short: ""
 
 # replace abstract content with short summary
 abstract: |

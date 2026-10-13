@@ -1,0 +1,94 @@
+# German overrides for data/authors/chiara-nardin.yaml (top-level keys replace the English ones).
+role: MSCA-Postdoktorandin an der ETH Zürich (Schweiz) und der Universität Trient (Italien)
+bio: |
+  Bauingenieurin und MSCA-Fellow. Ich forsche zu Erdbebenrisiko, Fragilitätsmodellierung und Unsicherheitsquantifizierung für komplexe Industrieanlagen an der ETH Zürich und der Universität Trient.
+
+interests:
+  - Unsicherheitsquantifizierung
+  - Konstruktiver Ingenieurbau
+  - Erdbebenrisikobewertung
+  - Zuverlässigkeitsanalyse
+
+education:
+  - degree: Promotion (PhD) im Konstruktiven Ingenieurbau
+    institution: Universität Trient
+    start: 2019-11-01
+    end: 2022-12-22
+    summary: |
+      Entwicklung eines rechnergestützten Frameworks zur seismischen Fragilitätsbewertung nichttragender Industriekomponenten auf Basis von Versuchen, FE-Modellen und surrogatbasierter Unsicherheitsquantifizierung.
+    button:
+      text: Dissertation herunterladen
+      url: /phd_unitn_chiara_nardin_red.pdf
+      icon: hero/arrow-down-tray
+  - degree: Master in Bauingenieurwesen (Konstruktiver Ingenieurbau)
+    institution: Universität Trient
+    start: 2016-09-01
+    end: 2019-03-29
+  - degree: Bachelor in Bauingenieurwesen
+    institution: Universität Trient
+    start: 2013-09-01
+    end: 2016-09-22
+
+experience:
+  - role: MSCA-Postdoktorandin an der ETH Zürich und der Universität Trient
+    org: EU MSCA
+    start: 2025-01-01
+    summary: |
+      REACTIS: Erdbebenrisikominderung und Anpassungsstrategien für komplexe, zeitabhängige Industriesysteme
+    button:
+      text: Zum Projekt
+      url: /reactis
+      icon: hero/arrow-down-tray
+  - role: Postdoktorandin an der Universität Trient
+    org: Universität Trient
+    start: 2024-01-01
+    end: 2024-12-31
+    summary: |
+      PREVENT: Entwicklung innovativer Vorhersagemodelle für induzierte Seismizität auf Basis von physikinformiertem maschinellem Lernen.
+  - role: Postdoktorandin an der Universität Trient
+    org: Universität Trient
+    start: 2023-01-01
+    end: 2023-12-31
+    summary: |
+      SPOKE#9: Entwicklung markovscher Übergangsmatrizen für gekoppelte Systeme aus Industrietragwerk und Prozesskomponenten unter seismischen Sequenzen.
+
+skills:
+  - name: Technische Kompetenzen
+    items:
+      - label: MatLab
+        level: 4
+      - label: Python
+        level: 3
+      - label: Maschinelles Lernen
+        level: 3
+  - name: Forschung & Kommunikation
+    items:
+      - label: Wissenschaftliches Schreiben
+        level: 5
+      - label: Konferenzvorträge
+        level: 4
+      - label: Forschungsanträge
+        level: 4
+
+languages:
+  - name: Italienisch
+    level: 5
+    label: Muttersprache
+  - name: Englisch
+    level: 5
+    label: Fließend
+  - name: Deutsch
+    level: 2
+    label: Grundkenntnisse
+
+awards:
+  - title: ReLUIS – Forschungspreis „20 Jahre ReLUIS“, Rom
+    awarder: ReLUIS
+    date: "2023-11-08"
+    summary: Auszeichnung für kreative und herausragende Forschungsinitiativen im Bereich Erdbeben- und Bauingenieurwesen.
+    icon: hero/trophy
+  - title: APESS – Asia Pacific Euro Summer School on Smart Structures Technology, Rom
+    awarder: APESS, Universität La Sapienza
+    date: "2019-04-08"
+    summary: Wettbewerb zur Konzeption eines Bauwerksüberwachungssystems (SHM) sowie zur Entwicklung und Erprobung von OMA-Verfahren für Stahlbauten und Fußgängerbrücken.
+    icon: hero/trophy

@@ -1,6 +1,6 @@
 ---
 title: "UQ based state-dependent framework for recovery and seismic risk assessment"
-authors: ["Chiara Nardin", "Stefano Marelli", "Bruno Sudret", "Oreste S. Bursi", "Marco Broccardo"]
+authors: ["chiara-nardin", "stefano-marelli", "bruno-sudret", "oreste-bursi", "marco-broccardo"]
 show_author_list: false
 date: "2025-09-14T00:00:00Z"
 
@@ -13,8 +13,8 @@ publishDate: "2025-09-14T00:00:00Z"
 publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Procedia Structural Integrity"
-publication_short: "PSI"
+publication: "*Procedia Structural Integrity*, 78, 576–583 (XX ANIDIS Conference)"
+publication_short: ""
 
 # replace abstract content with short summary
 abstract: |

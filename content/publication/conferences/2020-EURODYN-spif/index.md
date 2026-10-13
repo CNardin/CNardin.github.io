@@ -1,7 +1,7 @@
 ---
 title: "A ground motion model for seismic vulnerability assessment of prototype industrial plants"
 
-authors: ["Chiara Nardin", "Rocco di Filippo", "Roberto Endrizzi", "Igor Lanese", "Fabrizio Paolacci", "Oreste S. Bursi"]
+authors: ["chiara-nardin", "R. di Filippo", "R. Endrizzi", "igor-lanese", "fabrizio-paolacci", "oreste-bursi"]
 show_author_list: false
 date: "2020-06-24T00:00:00Z"
 
@@ -14,8 +14,8 @@ publishDate: "2020-06-24T00:00:00Z"
 publication_types: ["paper-conference"]
 
 # Publication name and optional abbreviated publication name.
-publication: "XI International Conference on Structural Dynamics - EURODYN 2020"
-publication_short: "EURODYN2020"
+publication: "*Proceedings of the XI International Conference on Structural Dynamics (EURODYN 2020)*, Athens, Greece, pp. 3053–3066"
+publication_short: ""
 
 # replace abstract content with short summary
 abstract: |

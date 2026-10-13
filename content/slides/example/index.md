@@ -1,4 +1,10 @@
 ---
+# NON PUBBLICATO e NON DA TRADURRE: contenuto demo del tema Hugo Blox.
+# Escluso da build, liste, sitemap e ricerca (build.render/list: never).
+build:
+  render: never
+  list: never
+  publishResources: false
 title: "Example Talk: Recent Work"
 date: 2024-01-01
 # `type: slides` is inferred from folder, but can be set explicitly:

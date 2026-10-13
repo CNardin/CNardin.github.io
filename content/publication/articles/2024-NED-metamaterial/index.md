@@ -1,6 +1,6 @@
 ---
 title: "Design standardisation and seismic protection of SMRs through modular metafoundations"
-authors: ["Tugberk Guner", "Chiara Nardin", "Oreste S. Bursi", "Silvano Erlicher", "Alexandre Monteil"]
+authors: ["tugberk-guner", "chiara-nardin", "oreste-bursi", "silvano-erlicher", "alexandre-monteil"]
 show_author_list: false
 date: "2024-02-12T00:00:00Z"
 
@@ -13,8 +13,8 @@ publishDate: "2024-02-12T00:00:00Z"
 publication_types: ["paper-article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "SMRs: design standardisation and seismic protection"
-publication_short: "SMRs"
+publication: "*Nuclear Engineering and Design*, 426, 113347"
+publication_short: ""
 
 abstract: This study assesses modular single- and multi-layer metafoundations for improving the seismic resilience of a Nuward™ small modular reactor building under design and beyond-design-basis earthquakes using nonlinear dynamic analyses.
 

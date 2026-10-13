@@ -1,0 +1,99 @@
+# Overrides/additions to the Hugo Blox Italian strings (the theme leaves these missing or in English).
+- id: authors
+  translation: Autori
+- id: pub_paper_conference
+  translation: Articolo a conferenza
+- id: pub_article_journal
+  translation: Articolo su rivista
+- id: published_with
+  translation: Realizzato con {hugoblox}.
+- id: callout_note
+  translation: Nota
+- id: callout_abstract
+  translation: Abstract
+- id: callout_summary
+  translation: Sintesi
+- id: callout_info
+  translation: Info
+- id: callout_todo
+  translation: Da fare
+- id: callout_tip
+  translation: Suggerimento
+- id: callout_success
+  translation: Successo
+- id: callout_question
+  translation: Domanda
+- id: callout_warning
+  translation: Attenzione
+- id: callout_failure
+  translation: Errore
+- id: callout_danger
+  translation: Pericolo
+- id: callout_bug
+  translation: Bug
+- id: callout_example
+  translation: Esempio
+- id: callout_quote
+  translation: Citazione
+- id: callout_important
+  translation: Importante
+- id: callout_caution
+  translation: Cautela
+- id: backlinks
+  translation: Collegamenti in entrata
+- id: btn_doi
+  translation: DOI
+- id: btn_site
+  translation: Sito
+- id: btn_discussion
+  translation: Discussione
+- id: btn_event
+  translation: Evento
+- id: btn_calendar
+  translation: Calendario
+- id: btn_registration
+  translation: Iscrizione
+- id: btn_model
+  translation: Modello
+- id: about_me
+  translation: Profilo professionale
+- id: days
+  translation: Giorni
+- id: hours
+  translation: Ore
+- id: minutes
+  translation: Minuti
+- id: seconds
+  translation: Secondi
+- id: experience
+  translation: Esperienza
+- id: read_more
+  translation: Leggi di più
+- id: block_contact_title
+  translation: Contatti
+- id: block_contact_visit_title
+  translation: Dove trovarci
+- id: block_contact_office_hours
+  translation: Orari di ricevimento
+- id: block_contact_view_on_map
+  translation: Vedi sulla mappa
+- id: block_contact_connect_title
+  translation: Contatti
+- id: block_contact_follow_us
+  translation: Seguici
+- id: block_contact_follow_me
+  translation: Mi trovi su
+- id: block_contact_prospective_title
+  translation: Futuri membri
+- id: block_contact_form_title
+  translation: Inviaci un messaggio
+- id: block_contact_form_name
+  translation: Nome
+- id: block_contact_form_email
+  translation: Email
+- id: block_contact_form_subject
+  translation: Oggetto
+- id: block_contact_form_message
+  translation: Messaggio
+- id: block_contact_form_submit
+  translation: Invia messaggio

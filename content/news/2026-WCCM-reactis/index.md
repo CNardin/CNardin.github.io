@@ -1,18 +1,11 @@
 ---
 title: "WCCM-ECCOMAS 2026 — World Congress on Computational Mechanics"
 authors: ["Chiara Nardin"]
-show_author_list: false
+aliases:
+  - /publication/news/2026-wccm-reactis/
 date: "2026-07-24T00:00:00Z"
 
 publishDate: "2026-07-24T00:00:00Z"
-
-publication_types: ["news"]
-
-publication: "World Congress on Computational Mechanics — ECCOMAS Congress 2026 (WCCM-ECCOMAS 2026)"
-publication_short: "WCCM-ECCOMAS 2026"
-
-abstract: |
-    A week-long showcase of the RSUQ Chair's latest research at WCCM-ECCOMAS 2026, spanning manifold-autoregressive surrogate models, a continuous-time Markov-chain perspective on seismic reliability and resilience, stochastic emulators for hierarchical Bayesian inference, the UQLab software, and reliability-based design optimization.
 
 summary: A week with the RSUQ Chair at WCCM-ECCOMAS 2026 (Munich), with five presentations on uncertainty quantification, reliability, resilience and computational mechanics.
 
@@ -41,7 +34,6 @@ image:
   preview_only: false
 
 projects: ["reactis"]
-slides: ""
 ---
 
 > [!Info]+ WCCM-ECCOMAS 2026

@@ -1,6 +1,6 @@
 ---
 title: "Bay-Fi: Approximate Bayesian main Frequency Identification for extremely undersampled signals"
-authors: ["Chiara Nardin", "Stefano Zorzi", "Federica Zonzini", "Carlo Costa", "Marco Broccardo"]
+authors: ["chiara-nardin", "stefano-zorzi", "federica-zonzini", "carlo-costa", "marco-broccardo"]
 show_author_list: false
 date: "2026-01-01T00:00:00Z"
 
@@ -8,8 +8,8 @@ publishDate: "2026-01-01T00:00:00Z"
 
 publication_types: ["article-journal"]
 
-publication: "Mechanical Systems and Signal Processing"
-publication_short: "MSSP"
+publication: "*Mechanical Systems and Signal Processing*, 254, 114339"
+publication_short: ""
 
 abstract: |
     Bay-Fi (Bayesian Frequency Identification) is a novel method for the direct identification of the dominant modal frequency from extremely under-sampled vibration signals. The approach employs an approximate Bayesian framework to optimize a curve-fitting algorithm applied to sub-Nyquist, randomly acquired measurements, enabling accurate frequency estimates without signal reconstruction or prior hyperparameter tuning.

@@ -1,0 +1,70 @@
+---
+title: 'Projekte'
+date: 2024-05-19
+type: landing
+
+
+cascade:
+  - _target:
+      path: /projects/**
+    type: docs
+    params:
+      show_breadcrumb: true
+
+build:
+  list: never
+  render: always
+# design:
+#   # Section spacing
+#   spacing: '5rem'
+
+# Page sections
+sections:
+  - block: collection
+    id: projects
+    content:
+      title: Ausgewählte Projekte
+      text:  Eine Auswahl von Projekten, an denen ich in den letzten Jahren gearbeitet habe oder derzeit arbeite.
+      filters:
+        folders:
+          - projects  # This forces it to look ONLY inside the projects folder
+        exclude_featured: false
+        kinds:
+          - page      # This tells Hugo to look for individual project pages, not whole sections
+          - section
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 3
+      show_date: false
+      show_read_time: false
+      show_read_more: false
+---
+
+<!-- 
+title: Courses
+summary: My courses
+type: landing
+
+cascade:
+  - target:
+      path: '{/courses/*/**}'
+    type: docs
+    params:
+      show_breadcrumb: true
+
+sections:
+  - block: collection
+    id: courses
+    content:
+      title: Courses
+      filters:
+        tag: Course
+        kinds:
+          - section
+    design:
+      view: article-grid
+      show_read_time: false
+      show_date: false
+      show_read_more: false
+      columns: 1 -->

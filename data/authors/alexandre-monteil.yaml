@@ -1,0 +1,15 @@
+schema: hugoblox/author/v1
+slug: alexandre-monteil
+is_owner: false
+name:
+  display: "Alexandre Monteil"
+  given: "Alexandre"
+  family: "Monteil"
+affiliations:
+  - name: "EDF, Lyon (France)"
+    url: https://www.edf.fr/
+website: https://orcid.org/0000-0002-9573-0713
+links:
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-9573-0713
+    label: ORCID

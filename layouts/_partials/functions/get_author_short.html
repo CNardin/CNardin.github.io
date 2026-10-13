@@ -1,0 +1,58 @@
+{{/*
+Resolve an author (slug or raw name) into a short display form.
+
+Input: string (slug such as "oreste-bursi", or a raw name such as "F. Paolacci").
+Output (dict):
+- name: initials + family name (e.g. "O. S. Bursi"), raw name if no profile data
+- url: site Bio for the owner, else the author's website / first affiliation url
+- affiliation: first affiliation name (optional)
+- role: role (optional)
+- profile: the normalized profile from functions/get_author_profile
+*/}}
+
+{{- $raw := printf "%v" . -}}
+{{- $slug := $raw | urlize -}}
+{{- $profile := partial "functions/get_author_profile" (dict "slug" $slug "title" $raw) -}}
+{{- $data := index site.Data.authors $slug -}}
+
+{{- $name := $profile.title | default $raw -}}
+{{- $url := "" -}}
+{{- $affiliation := "" -}}
+{{- $affiliation_url := "" -}}
+
+{{- with $data -}}
+  {{- $given := "" -}}
+  {{- $family := "" -}}
+  {{- with .name -}}
+    {{- $given = .given | default "" -}}
+    {{- $family = .family | default "" -}}
+  {{- end -}}
+  {{- if and $given $family -}}
+    {{- $initials := slice -}}
+    {{- range split (replace $given "-" " ") " " -}}
+      {{- with . -}}
+        {{- $initials = $initials | append (printf "%s." (substr . 0 1)) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $name = printf "%s %s" (delimit $initials " ") $family -}}
+  {{- end -}}
+
+  {{- with .affiliations -}}
+    {{- with index . 0 -}}
+      {{- $affiliation = .name | default "" -}}
+      {{- $affiliation_url = .url | default "" -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if .website -}}
+    {{- $url = .website -}}
+  {{- else -}}
+    {{- $url = $affiliation_url -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if $profile.is_owner -}}
+  {{- $url = "/" | relLangURL -}}
+{{- end -}}
+
+{{- return (dict "name" $name "url" $url "affiliation" $affiliation "role" $profile.role "profile" $profile) -}}

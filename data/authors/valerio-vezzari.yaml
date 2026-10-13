@@ -1,0 +1,9 @@
+schema: hugoblox/author/v1
+slug: valerio-vezzari
+is_owner: false
+name:
+  display: "Valerio Vezzari"
+  given: "Valerio"
+  family: "Vezzari"
+affiliations:
+  - name: "Globalsensing srl, Rome"
