@@ -32,6 +32,7 @@ build:
 
 {{< cards >}}
   {{< card url="/it/publication/conferences/2025-ANIDIS-reactis" title="C1. UQ based state-dependent framework for recovery and seismic risk assessment" icon="academic-cap" >}}
+  {{< card url="/it/publication/conferences/2026-REC-reactis" title="C2. A continuous-time Markovian framework for performance-based earthquake engineering: integrated seismic risk and resilience assessment" icon="academic-cap" >}}
 {{< /cards >}}
 
 ## News
@@ -47,6 +48,6 @@ build:
 | T1 | [ICOSSAR 2025 — 14th International Conference on Structural Safety and Reliability](https://www.icossar2025.org/) | Los Angeles, USA | giu 2025 | ✅ presentato |
 | T2 | [ANIDIS 2025 — XIX Convegno Nazionale di Ingegneria Sismica in Italia](https://www.anidis.it/) | Assisi, Italia | set 2025 | ✅ presentato |
 | T3 | [WCCM ECCOMAS 2026 — World Congress on Computational Mechanics](/it/news/2026-wccm-reactis/) | Monaco di Baviera, Germania | lug 2026 | ✅ presentato |
-| T4 | [CSM 2026 — Computational Structural Mechanics](https://csm2026.org/) | Corfù, Grecia | lug 2026 | 🔜 in programma |
-| T5 | [REC 2026 — Reliability Engineering and Computation](https://rec2026.org/) | Dortmund, Germania | set 2026 | 🔜 in programma |
-| T6 | [WiDS Zurich 2026 — Women in Data Science](/it/news/2026-wids-reactis/) | Rüschlikon, Svizzera | giu 2026 | 🔜 in programma — poster e pitch |
+| T4 | [CSM9 2026 — 9th International Conference on Computational Stochastic Mechanics](/it/news/2026-csm-reactis/) | Corfù, Grecia | giu 2026 | ✅ presentato |
+| T5 | [REC 2026 — 11th International Workshop on Reliable Engineering Computing](/it/publication/conferences/2026-rec-reactis/) | Dortmund, Germania | set 2026 | ✅ presentato — [articolo](/papers/2026-REC-reactis.pdf) |
+| T6 | [WiDS Zurich 2026 — Women in Data Science](/it/news/2026-wids-reactis/) | Rüschlikon, Svizzera | giu 2026 | ✅ presentato — [poster](/papers/2026-WiDS-reactis-poster.pdf) e pitch |

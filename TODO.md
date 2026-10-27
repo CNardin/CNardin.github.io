@@ -48,7 +48,7 @@ Ultimo aggiornamento: 2026-10-13
       - il poster P1 punta alla pagina ANIDIS.
 - [ ] **SPIF** (`projects/spif/index.md`): la tabella "Related publications" contiene il segnaposto "j1. AA".
 - [ ] **Esperienza**: il pulsante "View project" punta a `/reactis`, che non esiste (dovrebbe essere `/projects/reactis/`).
-- [ ] **REACTIS – riferimenti**: aggiornare lo stato dei talk già passati (CSM 2026, REC 2026, WiDS 2026 sono ancora "upcoming").
+- [x] **REACTIS – riferimenti**: stato dei talk aggiornato (CSM 2026, WiDS 2026 e REC 2026 presentati).
 - [ ] **REACTIS e repository**: il "Tip: Remember to appreciate the little things in life" è un testo demo. Tenerlo?
 
 ## Sito multilingua (EN / IT / DE)
