@@ -49,6 +49,7 @@ Ultimo aggiornamento: 2026-10-13
 - [ ] **SPIF** (`projects/spif/index.md`): la tabella "Related publications" contiene il segnaposto "j1. AA".
 - [ ] **Esperienza**: il pulsante "View project" punta a `/reactis`, che non esiste (dovrebbe essere `/projects/reactis/`).
 - [x] **REACTIS – riferimenti**: stato dei talk aggiornato (CSM 2026, WiDS 2026 e REC 2026 presentati).
+- [ ] **REACTIS – webinar IASSAR TC R3 (29 ott 2026)**: dopo il 29 ottobre segnare T7 come presentato (EN/IT/DE); eventuale link a slide/registrazione.
 - [ ] **REACTIS e repository**: il "Tip: Remember to appreciate the little things in life" è un testo demo. Tenerlo?
 
 ## Sito multilingua (EN / IT / DE)

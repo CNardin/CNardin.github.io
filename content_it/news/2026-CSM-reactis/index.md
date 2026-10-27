@@ -21,6 +21,12 @@ links:
   - type: pdf
     url: /papers/2026-CSM9-Abstracts.pdf
 
+image:
+  filename: featured.jpg
+  caption: "I partecipanti alla conferenza CSM9, Corfù"
+  focal_point: "Bottom"
+  preview_only: false
+
 projects: ["reactis"]
 ---
 
@@ -43,3 +49,8 @@ C. Nardin, S. Marelli, M. Broccardo & B. Sudret —
 *CSM9 — 9th International Conference on Computational Stochastic Mechanics*, Corfù, giugno 2026.
 
 [⬇ Scarica il Book of Abstracts (PDF)](/papers/2026-CSM9-Abstracts.pdf)
+
+---
+
+![I partecipanti alla conferenza CSM9, Corfù](featured.jpg)
+*I partecipanti alla conferenza CSM9, Corfù — giugno 2026.*

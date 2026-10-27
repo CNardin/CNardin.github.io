@@ -51,3 +51,4 @@ build:
 | T4 | [CSM9 2026 — 9th International Conference on Computational Stochastic Mechanics](/de/news/2026-csm-reactis/) | Korfu, Griechenland | Jun. 2026 | ✅ präsentiert |
 | T5 | [REC 2026 — 11th International Workshop on Reliable Engineering Computing](/de/publication/conferences/2026-rec-reactis/) | Dortmund, Deutschland | Sep. 2026 | ✅ präsentiert — [Beitrag](/papers/2026-REC-reactis.pdf) |
 | T6 | [WiDS Zurich 2026 — Women in Data Science](/de/news/2026-wids-reactis/) | Rüschlikon, Schweiz | Jun. 2026 | ✅ präsentiert — [Poster](/papers/2026-WiDS-reactis-poster.pdf) & Pitch |
+| T7 | [IASSAR-TC-R3-Webinar](/de/news/2026-iassar-webinar-reactis/) — *Integrating Structural Reliability and Resilience in Performance-Based (Earthquake) Engineering* | TU München, Deutschland & online | Okt. 2026 | 🔜 geplant — Webinar, präsentiert von M. Broccardo |
