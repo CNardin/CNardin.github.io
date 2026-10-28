@@ -19,12 +19,20 @@ build:
 | T2 | Internal seminar — PAT | Trento, Italy | — | ✅ presented |
 | T3 | [ANIDIS 2025 — XIX Convegno Nazionale di Ingegneria Sismica in Italia](/publication/conferences/2025-ANIDIS-maers) | Assisi, Italy | Sep 2025 | ✅ paper |
 | T4 | [GEM 2026](/projects/maers/Poster_GEM.pdf) | — | 2026 | 🔜 upcoming — [poster](/projects/maers/Poster_GEM.pdf) |
+| T5 | Rischio sismico nell'Alto Garda tra storia, prevenzione e pianificazione — 50th anniversary of the Santa Lucia earthquake | Riva del Garda, Italy | Dec 11, 2026 | 🔜 upcoming |
 
 ## Outreach Activities
 
-### Organizing the 50th anniversary of the Riva del Garda earthquake (2026)
+### 50th anniversary of the Santa Lucia earthquake — technical and outreach days (2026)
 
-The MAERS team is organizing the commemoration of the 50th anniversary of the Santa Lucia earthquake that struck Riva del Garda and the Alto Garda area in 1976. More details to follow soon!
+Under the patronage of the **Autonomous Province of Trento (PAT)**, a series of technical and outreach days is being organized for the 50th anniversary of the Santa Lucia earthquake that struck Riva del Garda and the Alto Garda area on 13 December 1976. The MAERS team is contributing to the programme.
+
+**Technical conference — *Rischio sismico nell'Alto Garda tra storia, prevenzione e pianificazione***  
+📅 11 December 2026, 9:00–13:30 · 📍 Sala Fraglia della Vela, Via G. Maroni 2, Riva del Garda (TN) · 🎓 professional training credits (CFP)
+
+Talks on the history of the 1976 earthquake, the geology and seismicity of the Garda area, local seismic response, structural retrofitting and the damage to the artistic heritage. In the second session, **Federico Ugolini and Chiara Nardin** (DICAM, University of Trento) present *"Vulnerabilità, esposizione e rischio sismico in Alto Garda"*.
+
+📄 Programme (PDF): *release soon*
 
 ---
 

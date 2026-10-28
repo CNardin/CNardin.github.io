@@ -19,12 +19,20 @@ build:
 | T2 | Internes Seminar — PAT | Trient, Italien | — | ✅ präsentiert |
 | T3 | [ANIDIS 2025 — XIX Convegno Nazionale di Ingegneria Sismica in Italia](/de/publication/conferences/2025-ANIDIS-maers) | Assisi, Italien | Sep. 2025 | ✅ Beitrag |
 | T4 | [GEM 2026](/projects/maers/Poster_GEM.pdf) | — | 2026 | 🔜 geplant — [Poster](/projects/maers/Poster_GEM.pdf) |
+| T5 | Rischio sismico nell'Alto Garda tra storia, prevenzione e pianificazione — 50. Jahrestag des Santa-Lucia-Erdbebens | Riva del Garda, Italien | 11. Dez. 2026 | 🔜 geplant |
 
 ## Öffentlichkeitsarbeit
 
-### Organisation des 50. Jahrestags des Erdbebens von Riva del Garda (2026)
+### 50. Jahrestag des Santa-Lucia-Erdbebens — Fach- und Informationstage (2026)
 
-Das MAERS-Team organisiert die Gedenkveranstaltung zum 50. Jahrestag des Santa-Lucia-Erdbebens, das 1976 Riva del Garda und die Region Alto Garda traf. Weitere Details folgen in Kürze!
+Unter der Schirmherrschaft der **Autonomen Provinz Trient (PAT)** wird zum 50. Jahrestag des Santa-Lucia-Erdbebens, das am 13. Dezember 1976 Riva del Garda und die Region Alto Garda traf, eine Reihe von Fach- und Informationstagen organisiert. Das MAERS-Team wirkt am Programm mit.
+
+**Fachtagung — *Rischio sismico nell'Alto Garda tra storia, prevenzione e pianificazione***
+📅 11. Dezember 2026, 9:00–13:30 Uhr · 📍 Sala Fraglia della Vela, Via G. Maroni 2, Riva del Garda (TN) · 🎓 Weiterbildungspunkte für Fachleute
+
+Vorträge zur Geschichte des Erdbebens von 1976, zur Geologie und Seismizität der Gardasee-Region, zur lokalen seismischen Antwort, zu Erdbebenertüchtigung und zu den Schäden am Kunsterbe. In der zweiten Sitzung präsentieren **Federico Ugolini und Chiara Nardin** (DICAM, Universität Trient) *„Vulnerabilità, esposizione e rischio sismico in Alto Garda"*.
+
+📄 Programm (PDF): *erscheint in Kürze*
 
 ---
 

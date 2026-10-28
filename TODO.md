@@ -50,6 +50,7 @@ Ultimo aggiornamento: 2026-10-13
 - [ ] **Esperienza**: il pulsante "View project" punta a `/reactis`, che non esiste (dovrebbe essere `/projects/reactis/`).
 - [x] **REACTIS – riferimenti**: stato dei talk aggiornato (CSM 2026, WiDS 2026 e REC 2026 presentati).
 - [ ] **REACTIS – webinar IASSAR TC R3 (29 ott 2026)**: dopo il 29 ottobre segnare T7 come presentato (EN/IT/DE); eventuale link a slide/registrazione.
+- [ ] **MAERS – 50° Santa Lucia (11 dic 2026)**: quando la locandina è definitiva, sostituire "release soon" con il link al PDF (`projects/maers/news.md` e news `2026-SantaLucia50-maers`, EN/IT/DE). Ora `locandina_tecnica_v4.pdf` è in `content/projects/maers/` non linkato.
 - [ ] **REACTIS e repository**: il "Tip: Remember to appreciate the little things in life" è un testo demo. Tenerlo?
 
 ## Sito multilingua (EN / IT / DE)
